@@ -1,0 +1,33 @@
+{
+  "version": "1.0",
+  "board": "k1-muse-pipro",
+  "product": "ai-cubpet",
+  "description": "K1 AI Cubpet build configuration",
+  "enabled_packages": [
+    "components/peripherals/misc_io",
+    "components/peripherals/pm",
+    "components/peripherals/wifi",
+    "components/peripherals/nfc",
+    "components/peripherals/motor",
+    "components/peripherals/light_sensor",
+    "components/peripherals/led",
+    "components/peripherals/imu",
+    "components/multimedia/audio",
+    "components/multimedia/audio_process/doa",
+    "components/model_zoo/asr",
+    "components/model_zoo/vad",
+    "application/native/ai-cubpet"
+  ],
+  "enabled_package_options": {
+    "components/peripherals/light_sensor": { "enabled_drivers": ["drv_i2c_w1160"] },
+    "components/peripherals/pm": { "enabled_drivers": ["drv_generic"] },
+    "components/peripherals/nfc": { "enabled_drivers": ["drv_i2c_SI512"] },
+    "components/peripherals/led": { "enabled_drivers": ["drv_spi_ws2812"] },
+    "components/peripherals/imu": { "enabled_drivers": ["drv_i2c_mxc4005"] },
+    "components/peripherals/motor": { "enabled_drivers": ["drv_pwm_generic", "drv_pwm_RoHS"] }
+  },
+  "options": {
+    "parallel_jobs": 4,
+    "auto_resolve_dependencies": true
+  }
+}

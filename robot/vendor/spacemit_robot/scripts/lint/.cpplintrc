@@ -1,0 +1,18 @@
+set noparent
+
+# Line length limit (tune to your team preference).
+linelength=120
+
+# Header guard naming policy (implemented by scripts/lint/cpplint.sh):
+# - default: cpplint default (may include directory prefixes)
+# - basename: use only the file basename (e.g. task.h -> TASK_H_)
+# - basename_no_trailing_underscore: use only file basename (e.g. test_framework.h -> TEST_FRAMEWORK_H)
+headerguard=basename_no_trailing_underscore
+
+# Disable checks we don't enforce for this repo/team.
+# - whitespace/indent is disabled because scripts/lint/cpplint.sh enforces
+#   a repo-specific 4-space indentation rule.
+filter=-whitespace/braces,-whitespace/indent,-build/header_guard,-build/include_subdir,-legal/copyright,-runtime/int,-readability/casting,-runtime/casting,-build/include_what_you_use,-runtime/string,-build/include_order,-readability/braces,-whitespace/comments,-whitespace/newline,-whitespace/blank_line,-runtime/threadsafe_fn,-runtime/printf,-whitespace/semicolon,-build/include,-whitespace/line_length
+
+# Treat headers/sources consistently.
+extensions=c,cc,cpp,cxx,h,hpp,hh,hxx

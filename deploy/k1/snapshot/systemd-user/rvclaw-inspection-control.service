@@ -1,0 +1,21 @@
+[Unit]
+Description=RVClaw K1 website inspection control
+After=network-online.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+EnvironmentFile=@ROBOT_ROOT@/runtime/k1/environment/rvclaw-vendor-command.service.env
+Environment=PYTHONUNBUFFERED=1
+Environment=RVCLAW_VOICE_PACKAGE_ROOT=@ROBOT_ROOT@/services/rvclaw_voice
+Environment=RVCLAW_INSPECTION_PROFILE_ROOT=@ROBOT_ROOT@/state
+Environment=RVCLAW_INSPECTION_MAP_ROOTS=@ROBOT_ROOT@/configs/scenes:@ROBOT_ROOT@/configs/studio-maps
+Environment=RVCLAW_STUDIO_ORIGINS=http://@BOARD_ADDRESS@:8017
+ExecStart=/usr/bin/python3 @ROBOT_ROOT@/services/inspection_control/inspection_control.py --host @BOARD_ADDRESS@ --port 8019
+Restart=on-failure
+RestartSec=5
+KillMode=process
+TimeoutStopSec=10
+
+[Install]
+WantedBy=default.target

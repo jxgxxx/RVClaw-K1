@@ -1,0 +1,1966 @@
+[
+  {
+    "name": "alsa-utils",
+    "version": "1.2.9-1ubuntu5bb2"
+  },
+  {
+    "name": "gcc-14-base",
+    "version": "14.2.0-4ubuntu2~24.04bb2"
+  },
+  {
+    "name": "libopencv-calib3d-dev",
+    "version": "4.6.0+dfsg-13.1ubuntu1bb1"
+  },
+  {
+    "name": "libopencv-calib3d406t64",
+    "version": "4.6.0+dfsg-13.1ubuntu1bb1"
+  },
+  {
+    "name": "libopencv-contrib-dev",
+    "version": "4.6.0+dfsg-13.1ubuntu1bb1"
+  },
+  {
+    "name": "libopencv-contrib406t64",
+    "version": "4.6.0+dfsg-13.1ubuntu1bb1"
+  },
+  {
+    "name": "libopencv-core-dev",
+    "version": "4.6.0+dfsg-13.1ubuntu1bb1"
+  },
+  {
+    "name": "libopencv-core406t64",
+    "version": "4.6.0+dfsg-13.1ubuntu1bb1"
+  },
+  {
+    "name": "libopencv-dev",
+    "version": "4.6.0+dfsg-13.1ubuntu1bb1"
+  },
+  {
+    "name": "libopencv-dnn-dev",
+    "version": "4.6.0+dfsg-13.1ubuntu1bb1"
+  },
+  {
+    "name": "libopencv-dnn406t64",
+    "version": "4.6.0+dfsg-13.1ubuntu1bb1"
+  },
+  {
+    "name": "libopencv-features2d-dev",
+    "version": "4.6.0+dfsg-13.1ubuntu1bb1"
+  },
+  {
+    "name": "libopencv-features2d406t64",
+    "version": "4.6.0+dfsg-13.1ubuntu1bb1"
+  },
+  {
+    "name": "libopencv-flann-dev",
+    "version": "4.6.0+dfsg-13.1ubuntu1bb1"
+  },
+  {
+    "name": "libopencv-flann406t64",
+    "version": "4.6.0+dfsg-13.1ubuntu1bb1"
+  },
+  {
+    "name": "libopencv-highgui-dev",
+    "version": "4.6.0+dfsg-13.1ubuntu1bb1"
+  },
+  {
+    "name": "libopencv-highgui406t64",
+    "version": "4.6.0+dfsg-13.1ubuntu1bb1"
+  },
+  {
+    "name": "libopencv-imgcodecs-dev",
+    "version": "4.6.0+dfsg-13.1ubuntu1bb1"
+  },
+  {
+    "name": "libopencv-imgcodecs406t64",
+    "version": "4.6.0+dfsg-13.1ubuntu1bb1"
+  },
+  {
+    "name": "libopencv-imgproc-dev",
+    "version": "4.6.0+dfsg-13.1ubuntu1bb1"
+  },
+  {
+    "name": "libopencv-imgproc406t64",
+    "version": "4.6.0+dfsg-13.1ubuntu1bb1"
+  },
+  {
+    "name": "libopencv-java",
+    "version": "4.6.0+dfsg-13.1ubuntu1bb1"
+  },
+  {
+    "name": "libopencv-ml-dev",
+    "version": "4.6.0+dfsg-13.1ubuntu1bb1"
+  },
+  {
+    "name": "libopencv-ml406t64",
+    "version": "4.6.0+dfsg-13.1ubuntu1bb1"
+  },
+  {
+    "name": "libopencv-objdetect-dev",
+    "version": "4.6.0+dfsg-13.1ubuntu1bb1"
+  },
+  {
+    "name": "libopencv-objdetect406t64",
+    "version": "4.6.0+dfsg-13.1ubuntu1bb1"
+  },
+  {
+    "name": "libopencv-photo-dev",
+    "version": "4.6.0+dfsg-13.1ubuntu1bb1"
+  },
+  {
+    "name": "libopencv-photo406t64",
+    "version": "4.6.0+dfsg-13.1ubuntu1bb1"
+  },
+  {
+    "name": "libopencv-shape-dev",
+    "version": "4.6.0+dfsg-13.1ubuntu1bb1"
+  },
+  {
+    "name": "libopencv-shape406t64",
+    "version": "4.6.0+dfsg-13.1ubuntu1bb1"
+  },
+  {
+    "name": "libopencv-stitching-dev",
+    "version": "4.6.0+dfsg-13.1ubuntu1bb1"
+  },
+  {
+    "name": "libopencv-stitching406t64",
+    "version": "4.6.0+dfsg-13.1ubuntu1bb1"
+  },
+  {
+    "name": "libopencv-superres-dev",
+    "version": "4.6.0+dfsg-13.1ubuntu1bb1"
+  },
+  {
+    "name": "libopencv-superres406t64",
+    "version": "4.6.0+dfsg-13.1ubuntu1bb1"
+  },
+  {
+    "name": "libopencv-video-dev",
+    "version": "4.6.0+dfsg-13.1ubuntu1bb1"
+  },
+  {
+    "name": "libopencv-video406t64",
+    "version": "4.6.0+dfsg-13.1ubuntu1bb1"
+  },
+  {
+    "name": "libopencv-videoio-dev",
+    "version": "4.6.0+dfsg-13.1ubuntu1bb1"
+  },
+  {
+    "name": "libopencv-videoio406t64",
+    "version": "4.6.0+dfsg-13.1ubuntu1bb1"
+  },
+  {
+    "name": "libopencv-videostab-dev",
+    "version": "4.6.0+dfsg-13.1ubuntu1bb1"
+  },
+  {
+    "name": "libopencv-videostab406t64",
+    "version": "4.6.0+dfsg-13.1ubuntu1bb1"
+  },
+  {
+    "name": "libopencv-viz-dev",
+    "version": "4.6.0+dfsg-13.1ubuntu1bb1"
+  },
+  {
+    "name": "libopencv-viz406t64",
+    "version": "4.6.0+dfsg-13.1ubuntu1bb1"
+  },
+  {
+    "name": "libopencv406-jni",
+    "version": "4.6.0+dfsg-13.1ubuntu1bb1"
+  },
+  {
+    "name": "libpcl-apps1.14",
+    "version": "1.14.0+dfsg-1"
+  },
+  {
+    "name": "libpcl-common1.14",
+    "version": "1.14.0+dfsg-1"
+  },
+  {
+    "name": "libpcl-dev",
+    "version": "1.14.0+dfsg-1"
+  },
+  {
+    "name": "libpcl-features1.14",
+    "version": "1.14.0+dfsg-1"
+  },
+  {
+    "name": "libpcl-filters1.14",
+    "version": "1.14.0+dfsg-1"
+  },
+  {
+    "name": "libpcl-io1.14",
+    "version": "1.14.0+dfsg-1"
+  },
+  {
+    "name": "libpcl-kdtree1.14",
+    "version": "1.14.0+dfsg-1"
+  },
+  {
+    "name": "libpcl-keypoints1.14",
+    "version": "1.14.0+dfsg-1"
+  },
+  {
+    "name": "libpcl-ml1.14",
+    "version": "1.14.0+dfsg-1"
+  },
+  {
+    "name": "libpcl-octree1.14",
+    "version": "1.14.0+dfsg-1"
+  },
+  {
+    "name": "libpcl-outofcore1.14",
+    "version": "1.14.0+dfsg-1"
+  },
+  {
+    "name": "libpcl-people1.14",
+    "version": "1.14.0+dfsg-1"
+  },
+  {
+    "name": "libpcl-recognition1.14",
+    "version": "1.14.0+dfsg-1"
+  },
+  {
+    "name": "libpcl-registration1.14",
+    "version": "1.14.0+dfsg-1"
+  },
+  {
+    "name": "libpcl-sample-consensus1.14",
+    "version": "1.14.0+dfsg-1"
+  },
+  {
+    "name": "libpcl-search1.14",
+    "version": "1.14.0+dfsg-1"
+  },
+  {
+    "name": "libpcl-segmentation1.14",
+    "version": "1.14.0+dfsg-1"
+  },
+  {
+    "name": "libpcl-stereo1.14",
+    "version": "1.14.0+dfsg-1"
+  },
+  {
+    "name": "libpcl-surface1.14",
+    "version": "1.14.0+dfsg-1"
+  },
+  {
+    "name": "libpcl-tracking1.14",
+    "version": "1.14.0+dfsg-1"
+  },
+  {
+    "name": "libpcl-visualization1.14",
+    "version": "1.14.0+dfsg-1"
+  },
+  {
+    "name": "opencv-spacemit",
+    "version": "4.14.0-1bb3"
+  },
+  {
+    "name": "python3-apport",
+    "version": "2.28.1-0ubuntu2bb3"
+  },
+  {
+    "name": "python3-apt",
+    "version": "2.7.7ubuntu1-bb2"
+  },
+  {
+    "name": "python3-argcomplete",
+    "version": "3.1.4-1ubuntu0.1"
+  },
+  {
+    "name": "python3-autocommand",
+    "version": "2.2.2-2"
+  },
+  {
+    "name": "python3-blinker",
+    "version": "1.7.0-1"
+  },
+  {
+    "name": "python3-bloom",
+    "version": "0.12.0-100"
+  },
+  {
+    "name": "python3-breezy",
+    "version": "3.3.5-6build2"
+  },
+  {
+    "name": "python3-brlapi",
+    "version": "6.6-4ubuntu5"
+  },
+  {
+    "name": "python3-brotli",
+    "version": "1.1.0-2build2"
+  },
+  {
+    "name": "python3-bs4",
+    "version": "4.12.3-1"
+  },
+  {
+    "name": "python3-build",
+    "version": "1.0.3-2"
+  },
+  {
+    "name": "python3-cairo",
+    "version": "1.25.1-2build2"
+  },
+  {
+    "name": "python3-catkin-pkg",
+    "version": "1.0.0-100"
+  },
+  {
+    "name": "python3-catkin-pkg-modules",
+    "version": "1.0.0-1"
+  },
+  {
+    "name": "python3-certifi",
+    "version": "2023.11.17-1"
+  },
+  {
+    "name": "python3-cffi-backend",
+    "version": "1.16.0-2build1"
+  },
+  {
+    "name": "python3-chardet",
+    "version": "5.2.0+dfsg-1"
+  },
+  {
+    "name": "python3-click",
+    "version": "8.1.6-2"
+  },
+  {
+    "name": "python3-colcon-argcomplete",
+    "version": "0.3.3+ds-2"
+  },
+  {
+    "name": "python3-colcon-bash",
+    "version": "0.5.0-1"
+  },
+  {
+    "name": "python3-colcon-cd",
+    "version": "0.2.1-1"
+  },
+  {
+    "name": "python3-colcon-cmake",
+    "version": "0.2.28-1"
+  },
+  {
+    "name": "python3-colcon-common-extensions",
+    "version": "0.3.0-1"
+  },
+  {
+    "name": "python3-colcon-core",
+    "version": "0.18.1-1"
+  },
+  {
+    "name": "python3-colcon-defaults",
+    "version": "0.2.8-1"
+  },
+  {
+    "name": "python3-colcon-devtools",
+    "version": "0.3.0-1"
+  },
+  {
+    "name": "python3-colcon-installed-package-information",
+    "version": "0.2.1-1"
+  },
+  {
+    "name": "python3-colcon-library-path",
+    "version": "0.2.1-2"
+  },
+  {
+    "name": "python3-colcon-metadata",
+    "version": "0.2.5-3"
+  },
+  {
+    "name": "python3-colcon-mixin",
+    "version": "0.2.3-1"
+  },
+  {
+    "name": "python3-colcon-notification",
+    "version": "0.3.0-1"
+  },
+  {
+    "name": "python3-colcon-output",
+    "version": "0.2.13-1"
+  },
+  {
+    "name": "python3-colcon-override-check",
+    "version": "0.0.1-1"
+  },
+  {
+    "name": "python3-colcon-package-information",
+    "version": "0.4.0-1"
+  },
+  {
+    "name": "python3-colcon-package-selection",
+    "version": "0.2.10-2"
+  },
+  {
+    "name": "python3-colcon-parallel-executor",
+    "version": "0.3.0-1"
+  },
+  {
+    "name": "python3-colcon-pkg-config",
+    "version": "0.1.0-2"
+  },
+  {
+    "name": "python3-colcon-powershell",
+    "version": "0.4.0-1"
+  },
+  {
+    "name": "python3-colcon-python-setup-py",
+    "version": "0.2.9-1"
+  },
+  {
+    "name": "python3-colcon-recursive-crawl",
+    "version": "0.2.3-1"
+  },
+  {
+    "name": "python3-colcon-ros",
+    "version": "0.5.0-1"
+  },
+  {
+    "name": "python3-colcon-test-result",
+    "version": "0.3.8-2"
+  },
+  {
+    "name": "python3-colcon-zsh",
+    "version": "0.5.0-1"
+  },
+  {
+    "name": "python3-colorama",
+    "version": "0.4.6-4"
+  },
+  {
+    "name": "python3-configobj",
+    "version": "5.0.8-3"
+  },
+  {
+    "name": "python3-coverage",
+    "version": "7.4.4+dfsg1-0ubuntu2"
+  },
+  {
+    "name": "python3-cryptography",
+    "version": "41.0.7-4ubuntu0.1"
+  },
+  {
+    "name": "python3-cssselect",
+    "version": "1.2.0-2"
+  },
+  {
+    "name": "python3-cups",
+    "version": "2.0.1-5build6"
+  },
+  {
+    "name": "python3-cupshelpers",
+    "version": "1.5.18-1ubuntu9"
+  },
+  {
+    "name": "python3-dateutil",
+    "version": "2.8.2-3ubuntu1"
+  },
+  {
+    "name": "python3-dbus",
+    "version": "1.3.2-5build3"
+  },
+  {
+    "name": "python3-decorator",
+    "version": "5.1.1-5"
+  },
+  {
+    "name": "python3-deprecated",
+    "version": "1.2.14-1"
+  },
+  {
+    "name": "python3-dev",
+    "version": "3.12.3-0ubuntu2"
+  },
+  {
+    "name": "python3-distlib",
+    "version": "0.3.8-1"
+  },
+  {
+    "name": "python3-distro",
+    "version": "1.9.0-1"
+  },
+  {
+    "name": "python3-distro-info",
+    "version": "1.7build1"
+  },
+  {
+    "name": "python3-distupgrade",
+    "version": "1:24.04.16-bb7"
+  },
+  {
+    "name": "python3-docutils",
+    "version": "0.20.1+dfsg-3"
+  },
+  {
+    "name": "python3-dulwich",
+    "version": "0.21.6-1build2"
+  },
+  {
+    "name": "python3-empy",
+    "version": "3.3.4-2"
+  },
+  {
+    "name": "python3-fastbencode",
+    "version": "0.2-1build2"
+  },
+  {
+    "name": "python3-fastimport",
+    "version": "0.9.14-2.1"
+  },
+  {
+    "name": "python3-flake8",
+    "version": "7.0.0-1"
+  },
+  {
+    "name": "python3-gi",
+    "version": "3.48.2-1"
+  },
+  {
+    "name": "python3-gi-cairo",
+    "version": "3.48.2-1"
+  },
+  {
+    "name": "python3-github",
+    "version": "2.2.0-1"
+  },
+  {
+    "name": "python3-gpg",
+    "version": "1.18.0-4.1ubuntu4"
+  },
+  {
+    "name": "python3-html5lib",
+    "version": "1.1-6"
+  },
+  {
+    "name": "python3-httplib2",
+    "version": "0.20.4-3"
+  },
+  {
+    "name": "python3-idna",
+    "version": "3.6-2ubuntu0.1"
+  },
+  {
+    "name": "python3-importlib-metadata",
+    "version": "4.12.0-1"
+  },
+  {
+    "name": "python3-inflect",
+    "version": "7.0.0-1"
+  },
+  {
+    "name": "python3-iniconfig",
+    "version": "1.1.1-2"
+  },
+  {
+    "name": "python3-jaraco.context",
+    "version": "4.3.0-1"
+  },
+  {
+    "name": "python3-jaraco.functools",
+    "version": "4.0.0-1"
+  },
+  {
+    "name": "python3-jaraco.text",
+    "version": "3.11.1-1"
+  },
+  {
+    "name": "python3-jwt",
+    "version": "2.7.0-1"
+  },
+  {
+    "name": "python3-lark",
+    "version": "1.1.9-1"
+  },
+  {
+    "name": "python3-launchpadlib",
+    "version": "1.11.0-6"
+  },
+  {
+    "name": "python3-lazr.restfulclient",
+    "version": "0.14.6-1"
+  },
+  {
+    "name": "python3-lazr.uri",
+    "version": "1.0.6-3"
+  },
+  {
+    "name": "python3-libevdev",
+    "version": "0.5-3"
+  },
+  {
+    "name": "python3-louis",
+    "version": "3.29.0-1build1"
+  },
+  {
+    "name": "python3-lxml",
+    "version": "5.2.1-1"
+  },
+  {
+    "name": "python3-markdown-it",
+    "version": "3.0.0-2"
+  },
+  {
+    "name": "python3-mccabe",
+    "version": "0.7.0-1"
+  },
+  {
+    "name": "python3-mdurl",
+    "version": "0.1.2-1"
+  },
+  {
+    "name": "python3-merge3",
+    "version": "0.0.8-1"
+  },
+  {
+    "name": "python3-minimal",
+    "version": "3.12.3-0ubuntu2"
+  },
+  {
+    "name": "python3-more-itertools",
+    "version": "10.2.0-1"
+  },
+  {
+    "name": "python3-mpi4py",
+    "version": "3.1.5-5ubuntu2"
+  },
+  {
+    "name": "python3-mutagen",
+    "version": "1.46.0-2"
+  },
+  {
+    "name": "python3-nacl",
+    "version": "1.5.0-4build1"
+  },
+  {
+    "name": "python3-netifaces",
+    "version": "0.11.0-2build3"
+  },
+  {
+    "name": "python3-netplan",
+    "version": "1.0.1-1ubuntu2~24.04.1"
+  },
+  {
+    "name": "python3-notify2",
+    "version": "0.3-5"
+  },
+  {
+    "name": "python3-numpy",
+    "version": "1:1.26.4+ds-6ubuntu1"
+  },
+  {
+    "name": "python3-oauthlib",
+    "version": "3.2.2-1"
+  },
+  {
+    "name": "python3-olefile",
+    "version": "0.46-3"
+  },
+  {
+    "name": "python3-opencv",
+    "version": "4.6.0+dfsg-13.1ubuntu1bb1"
+  },
+  {
+    "name": "python3-packaging",
+    "version": "24.0-1"
+  },
+  {
+    "name": "python3-patiencediff",
+    "version": "0.2.13-1build2"
+  },
+  {
+    "name": "python3-pexpect",
+    "version": "4.9-2"
+  },
+  {
+    "name": "python3-pil",
+    "version": "10.2.0-1ubuntu1"
+  },
+  {
+    "name": "python3-pip",
+    "version": "24.2+dfsg-1ubuntu0.2bb1"
+  },
+  {
+    "name": "python3-pip-whl",
+    "version": "24.2+dfsg-1ubuntu0.2bb1"
+  },
+  {
+    "name": "python3-pkg-resources",
+    "version": "75.8.0-1"
+  },
+  {
+    "name": "python3-pluggy",
+    "version": "1.4.0-1"
+  },
+  {
+    "name": "python3-problem-report",
+    "version": "2.28.1-0ubuntu2bb3"
+  },
+  {
+    "name": "python3-psutil",
+    "version": "5.9.8-2build2"
+  },
+  {
+    "name": "python3-ptyprocess",
+    "version": "0.7.0-5"
+  },
+  {
+    "name": "python3-pycodestyle",
+    "version": "2.11.1-1"
+  },
+  {
+    "name": "python3-pycryptodome",
+    "version": "3.20.0+dfsg-1"
+  },
+  {
+    "name": "python3-pydantic",
+    "version": "1.10.14-1"
+  },
+  {
+    "name": "python3-pydocstyle",
+    "version": "6.3.0-1.1"
+  },
+  {
+    "name": "python3-pyflakes",
+    "version": "3.2.0-1"
+  },
+  {
+    "name": "python3-pygments",
+    "version": "2.17.2+dfsg-1"
+  },
+  {
+    "name": "python3-pykdl",
+    "version": "1.5.1-4build1"
+  },
+  {
+    "name": "python3-pyparsing",
+    "version": "3.1.1-1"
+  },
+  {
+    "name": "python3-pyproject-hooks",
+    "version": "1.0.0-2"
+  },
+  {
+    "name": "python3-pytest",
+    "version": "7.4.4-1"
+  },
+  {
+    "name": "python3-pytest-cov",
+    "version": "4.1.0-1"
+  },
+  {
+    "name": "python3-pyudev",
+    "version": "0.24.0-1"
+  },
+  {
+    "name": "python3-requests",
+    "version": "2.31.0+dfsg-1ubuntu1"
+  },
+  {
+    "name": "python3-rich",
+    "version": "13.7.1-1"
+  },
+  {
+    "name": "python3-roman",
+    "version": "3.3-3"
+  },
+  {
+    "name": "python3-rosdep",
+    "version": "0.25.1-1"
+  },
+  {
+    "name": "python3-rosdep-modules",
+    "version": "0.25.1-1bb1"
+  },
+  {
+    "name": "python3-rosdistro",
+    "version": "1.0.1-100"
+  },
+  {
+    "name": "python3-rosdistro-modules",
+    "version": "1.0.1-1"
+  },
+  {
+    "name": "python3-rospkg-modules",
+    "version": "1.5.1-1bb1"
+  },
+  {
+    "name": "python3-scipy",
+    "version": "1.11.4-6build1"
+  },
+  {
+    "name": "python3-serial",
+    "version": "3.5-2"
+  },
+  {
+    "name": "python3-setuptools",
+    "version": "75.8.0-1"
+  },
+  {
+    "name": "python3-setuptools-whl",
+    "version": "75.8.0-1"
+  },
+  {
+    "name": "python3-six",
+    "version": "1.16.0-4"
+  },
+  {
+    "name": "python3-snowballstemmer",
+    "version": "2.2.0-4build1"
+  },
+  {
+    "name": "python3-software-properties",
+    "version": "0.99.48-bb4"
+  },
+  {
+    "name": "python3-soupsieve",
+    "version": "2.5-1"
+  },
+  {
+    "name": "python3-spacemit-ort",
+    "version": "2.0.3-bpo1"
+  },
+  {
+    "name": "python3-speechd",
+    "version": "0.12.0~rc2-2build3"
+  },
+  {
+    "name": "python3-systemd",
+    "version": "235-1build4"
+  },
+  {
+    "name": "python3-toml",
+    "version": "0.10.2-1"
+  },
+  {
+    "name": "python3-transforms3d",
+    "version": "0.4.1+ds-1"
+  },
+  {
+    "name": "python3-typeguard",
+    "version": "4.1.5-1"
+  },
+  {
+    "name": "python3-typing-extensions",
+    "version": "4.10.0-1"
+  },
+  {
+    "name": "python3-tzlocal",
+    "version": "5.2-1.1"
+  },
+  {
+    "name": "python3-uno",
+    "version": "4:24.2.7-0ubuntu0.24.04.1bb2"
+  },
+  {
+    "name": "python3-update-manager",
+    "version": "1:24.04.6-bb2"
+  },
+  {
+    "name": "python3-urllib3",
+    "version": "2.0.7-1ubuntu0.1"
+  },
+  {
+    "name": "python3-vcstool",
+    "version": "0.3.0-1"
+  },
+  {
+    "name": "python3-vcstools",
+    "version": "0.1.42-1"
+  },
+  {
+    "name": "python3-venv",
+    "version": "3.12.3-0ubuntu2"
+  },
+  {
+    "name": "python3-vtk9",
+    "version": "9.1.0+really9.1.0+dfsg2-7.1build3"
+  },
+  {
+    "name": "python3-wadllib",
+    "version": "1.3.6-5"
+  },
+  {
+    "name": "python3-webencodings",
+    "version": "0.5.1-5"
+  },
+  {
+    "name": "python3-websockets",
+    "version": "10.4-1"
+  },
+  {
+    "name": "python3-wheel",
+    "version": "0.42.0-2"
+  },
+  {
+    "name": "python3-wrapt",
+    "version": "1.15.0-2build3"
+  },
+  {
+    "name": "python3-xdg",
+    "version": "0.28-2"
+  },
+  {
+    "name": "python3-xkit",
+    "version": "0.5.0ubuntu6"
+  },
+  {
+    "name": "python3-yaml",
+    "version": "6.0.1-2build2"
+  },
+  {
+    "name": "python3-zipp",
+    "version": "1.0.0-6ubuntu0.1"
+  },
+  {
+    "name": "ros-humble-action-msgs",
+    "version": "1.2.1-1jammy"
+  },
+  {
+    "name": "ros-humble-actionlib-msgs",
+    "version": "4.2.4-1jammy"
+  },
+  {
+    "name": "ros-humble-ament-cmake",
+    "version": "1.3.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ament-cmake-auto",
+    "version": "1.3.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ament-cmake-copyright",
+    "version": "0.12.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ament-cmake-core",
+    "version": "1.3.11-1jammybb1"
+  },
+  {
+    "name": "ros-humble-ament-cmake-cppcheck",
+    "version": "0.12.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ament-cmake-cpplint",
+    "version": "0.12.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ament-cmake-export-definitions",
+    "version": "1.3.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ament-cmake-export-dependencies",
+    "version": "1.3.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ament-cmake-export-include-directories",
+    "version": "1.3.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ament-cmake-export-interfaces",
+    "version": "1.3.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ament-cmake-export-libraries",
+    "version": "1.3.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ament-cmake-export-link-flags",
+    "version": "1.3.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ament-cmake-export-targets",
+    "version": "1.3.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ament-cmake-flake8",
+    "version": "0.12.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ament-cmake-gen-version-h",
+    "version": "1.3.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ament-cmake-gmock",
+    "version": "1.3.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ament-cmake-gtest",
+    "version": "1.3.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ament-cmake-include-directories",
+    "version": "1.3.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ament-cmake-libraries",
+    "version": "1.3.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ament-cmake-lint-cmake",
+    "version": "0.12.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ament-cmake-pep257",
+    "version": "0.12.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ament-cmake-pytest",
+    "version": "1.3.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ament-cmake-python",
+    "version": "1.3.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ament-cmake-ros",
+    "version": "0.10.0-3jammy"
+  },
+  {
+    "name": "ros-humble-ament-cmake-target-dependencies",
+    "version": "1.3.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ament-cmake-test",
+    "version": "1.3.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ament-cmake-uncrustify",
+    "version": "0.12.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ament-cmake-version",
+    "version": "1.3.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ament-cmake-xmllint",
+    "version": "0.12.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ament-copyright",
+    "version": "0.12.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ament-cppcheck",
+    "version": "0.12.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ament-cpplint",
+    "version": "0.12.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ament-flake8",
+    "version": "0.12.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ament-index-cpp",
+    "version": "1.4.0-2jammy"
+  },
+  {
+    "name": "ros-humble-ament-index-python",
+    "version": "1.4.0-2jammy"
+  },
+  {
+    "name": "ros-humble-ament-lint",
+    "version": "0.12.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ament-lint-auto",
+    "version": "0.12.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ament-lint-cmake",
+    "version": "0.12.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ament-lint-common",
+    "version": "0.12.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ament-package",
+    "version": "0.14.0-4jammy"
+  },
+  {
+    "name": "ros-humble-ament-pep257",
+    "version": "0.12.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ament-uncrustify",
+    "version": "0.12.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ament-xmllint",
+    "version": "0.12.11-1jammy"
+  },
+  {
+    "name": "ros-humble-angles",
+    "version": "1.15.0-1jammy"
+  },
+  {
+    "name": "ros-humble-behaviortree-cpp-v3",
+    "version": "3.8.7-1jammy"
+  },
+  {
+    "name": "ros-humble-bond",
+    "version": "4.1.2-1jammy"
+  },
+  {
+    "name": "ros-humble-bondcpp",
+    "version": "4.1.2-1jammy"
+  },
+  {
+    "name": "ros-humble-builtin-interfaces",
+    "version": "1.2.1-1jammy"
+  },
+  {
+    "name": "ros-humble-class-loader",
+    "version": "2.2.0-3jammy"
+  },
+  {
+    "name": "ros-humble-common-interfaces",
+    "version": "4.2.4-1jammy"
+  },
+  {
+    "name": "ros-humble-composition-interfaces",
+    "version": "1.2.1-1jammy"
+  },
+  {
+    "name": "ros-humble-console-bridge-vendor",
+    "version": "1.4.1-1jammy"
+  },
+  {
+    "name": "ros-humble-costmap-queue",
+    "version": "1.1.18-1jammy"
+  },
+  {
+    "name": "ros-humble-cv-bridge",
+    "version": "3.2.1-1jammy"
+  },
+  {
+    "name": "ros-humble-diagnostic-msgs",
+    "version": "4.2.4-1jammy"
+  },
+  {
+    "name": "ros-humble-diagnostic-updater",
+    "version": "4.0.2-1jammy"
+  },
+  {
+    "name": "ros-humble-domain-coordinator",
+    "version": "0.10.0-3jammy"
+  },
+  {
+    "name": "ros-humble-dwb-core",
+    "version": "1.1.18-1jammy"
+  },
+  {
+    "name": "ros-humble-dwb-critics",
+    "version": "1.1.18-1jammy"
+  },
+  {
+    "name": "ros-humble-dwb-msgs",
+    "version": "1.1.18-1jammy"
+  },
+  {
+    "name": "ros-humble-dwb-plugins",
+    "version": "1.1.18-1jammy"
+  },
+  {
+    "name": "ros-humble-eigen3-cmake-module",
+    "version": "0.1.1-4jammy"
+  },
+  {
+    "name": "ros-humble-fastcdr",
+    "version": "1.0.24-2jammy"
+  },
+  {
+    "name": "ros-humble-fastrtps",
+    "version": "2.6.9-1jammy"
+  },
+  {
+    "name": "ros-humble-fastrtps-cmake-module",
+    "version": "2.2.2-2jammy"
+  },
+  {
+    "name": "ros-humble-foonathan-memory-vendor",
+    "version": "1.2.0-3jammy"
+  },
+  {
+    "name": "ros-humble-geographic-msgs",
+    "version": "1.0.6-1jammy"
+  },
+  {
+    "name": "ros-humble-geometry-msgs",
+    "version": "4.2.4-1jammy"
+  },
+  {
+    "name": "ros-humble-geometry2",
+    "version": "0.25.12-1jammy"
+  },
+  {
+    "name": "ros-humble-gmock-vendor",
+    "version": "1.10.9006-1jammy"
+  },
+  {
+    "name": "ros-humble-gtest-vendor",
+    "version": "1.10.9006-1jammy"
+  },
+  {
+    "name": "ros-humble-ignition-cmake2-vendor",
+    "version": "0.0.2-2jammy"
+  },
+  {
+    "name": "ros-humble-ignition-math6-vendor",
+    "version": "0.0.2-2jammy"
+  },
+  {
+    "name": "ros-humble-image-transport",
+    "version": "3.1.10-1jammy"
+  },
+  {
+    "name": "ros-humble-interactive-markers",
+    "version": "2.3.2-2jammy"
+  },
+  {
+    "name": "ros-humble-joint-state-publisher",
+    "version": "2.4.0-1jammy"
+  },
+  {
+    "name": "ros-humble-kdl-parser",
+    "version": "2.6.4-1jammy"
+  },
+  {
+    "name": "ros-humble-keyboard-handler",
+    "version": "0.0.5-1jammy"
+  },
+  {
+    "name": "ros-humble-laser-geometry",
+    "version": "2.4.0-2jammy"
+  },
+  {
+    "name": "ros-humble-launch",
+    "version": "1.0.7-1jammy"
+  },
+  {
+    "name": "ros-humble-launch-ros",
+    "version": "0.19.8-1jammy"
+  },
+  {
+    "name": "ros-humble-launch-testing",
+    "version": "1.0.7-1jammy"
+  },
+  {
+    "name": "ros-humble-launch-testing-ament-cmake",
+    "version": "1.0.7-1jammy"
+  },
+  {
+    "name": "ros-humble-launch-testing-ros",
+    "version": "0.19.8-1jammy"
+  },
+  {
+    "name": "ros-humble-launch-xml",
+    "version": "1.0.7-1jammy"
+  },
+  {
+    "name": "ros-humble-launch-yaml",
+    "version": "1.0.7-1jammy"
+  },
+  {
+    "name": "ros-humble-libcurl-vendor",
+    "version": "3.1.2-1jammy"
+  },
+  {
+    "name": "ros-humble-libstatistics-collector",
+    "version": "1.3.4-1jammy"
+  },
+  {
+    "name": "ros-humble-libyaml-vendor",
+    "version": "1.2.2-2jammy"
+  },
+  {
+    "name": "ros-humble-lifecycle-msgs",
+    "version": "1.2.1-1jammy"
+  },
+  {
+    "name": "ros-humble-map-msgs",
+    "version": "2.1.0-3jammy"
+  },
+  {
+    "name": "ros-humble-message-filters",
+    "version": "4.3.5-1jammy"
+  },
+  {
+    "name": "ros-humble-nav-2d-msgs",
+    "version": "1.1.18-1jammy"
+  },
+  {
+    "name": "ros-humble-nav-2d-utils",
+    "version": "1.1.18-1jammy"
+  },
+  {
+    "name": "ros-humble-nav-msgs",
+    "version": "4.2.4-1jammy"
+  },
+  {
+    "name": "ros-humble-nav2-amcl",
+    "version": "1.1.18-1jammy"
+  },
+  {
+    "name": "ros-humble-nav2-behavior-tree",
+    "version": "1.1.18-1jammy"
+  },
+  {
+    "name": "ros-humble-nav2-behaviors",
+    "version": "1.1.18-1jammy"
+  },
+  {
+    "name": "ros-humble-nav2-bringup",
+    "version": "1.1.18-1jammy"
+  },
+  {
+    "name": "ros-humble-nav2-bt-navigator",
+    "version": "1.1.18-1jammy"
+  },
+  {
+    "name": "ros-humble-nav2-collision-monitor",
+    "version": "1.1.18-1jammy"
+  },
+  {
+    "name": "ros-humble-nav2-common",
+    "version": "1.1.18-1jammy"
+  },
+  {
+    "name": "ros-humble-nav2-constrained-smoother",
+    "version": "1.1.18-1jammy"
+  },
+  {
+    "name": "ros-humble-nav2-controller",
+    "version": "1.1.18-1jammy"
+  },
+  {
+    "name": "ros-humble-nav2-core",
+    "version": "1.1.18-1jammy"
+  },
+  {
+    "name": "ros-humble-nav2-costmap-2d",
+    "version": "1.1.18-1jammy"
+  },
+  {
+    "name": "ros-humble-nav2-dwb-controller",
+    "version": "1.1.18-1jammy"
+  },
+  {
+    "name": "ros-humble-nav2-lifecycle-manager",
+    "version": "1.1.18-1jammy"
+  },
+  {
+    "name": "ros-humble-nav2-map-server",
+    "version": "1.1.18-1jammy"
+  },
+  {
+    "name": "ros-humble-nav2-mppi-controller",
+    "version": "1.1.18-1jammybb1"
+  },
+  {
+    "name": "ros-humble-nav2-msgs",
+    "version": "1.1.18-1jammy"
+  },
+  {
+    "name": "ros-humble-nav2-navfn-planner",
+    "version": "1.1.18-1jammy"
+  },
+  {
+    "name": "ros-humble-nav2-planner",
+    "version": "1.1.18-1jammy"
+  },
+  {
+    "name": "ros-humble-nav2-regulated-pure-pursuit-controller",
+    "version": "1.1.18-1jammy"
+  },
+  {
+    "name": "ros-humble-nav2-rotation-shim-controller",
+    "version": "1.1.18-1jammy"
+  },
+  {
+    "name": "ros-humble-nav2-rviz-plugins",
+    "version": "1.1.18-1jammy"
+  },
+  {
+    "name": "ros-humble-nav2-simple-commander",
+    "version": "1.1.18-1jammy"
+  },
+  {
+    "name": "ros-humble-nav2-smac-planner",
+    "version": "1.1.18-1jammy"
+  },
+  {
+    "name": "ros-humble-nav2-smoother",
+    "version": "1.1.18-1jammy"
+  },
+  {
+    "name": "ros-humble-nav2-theta-star-planner",
+    "version": "1.1.18-1jammy"
+  },
+  {
+    "name": "ros-humble-nav2-util",
+    "version": "1.1.18-1jammy"
+  },
+  {
+    "name": "ros-humble-nav2-velocity-smoother",
+    "version": "1.1.18-1jammy"
+  },
+  {
+    "name": "ros-humble-nav2-voxel-grid",
+    "version": "1.1.18-1jammy"
+  },
+  {
+    "name": "ros-humble-nav2-waypoint-follower",
+    "version": "1.1.18-1jammy"
+  },
+  {
+    "name": "ros-humble-navigation2",
+    "version": "1.1.18-1jammy"
+  },
+  {
+    "name": "ros-humble-ompl",
+    "version": "1.6.0-1jammy"
+  },
+  {
+    "name": "ros-humble-orocos-kdl-vendor",
+    "version": "0.2.5-1jammy"
+  },
+  {
+    "name": "ros-humble-osrf-pycommon",
+    "version": "2.1.4-1jammy"
+  },
+  {
+    "name": "ros-humble-pcl-conversions",
+    "version": "2.4.5-2jammybb1"
+  },
+  {
+    "name": "ros-humble-pcl-msgs",
+    "version": "1.0.0-7jammy"
+  },
+  {
+    "name": "ros-humble-pluginlib",
+    "version": "5.1.0-3jammy"
+  },
+  {
+    "name": "ros-humble-pybind11-vendor",
+    "version": "2.4.2-1jammy"
+  },
+  {
+    "name": "ros-humble-python-cmake-module",
+    "version": "0.10.0-2jammy"
+  },
+  {
+    "name": "ros-humble-python-orocos-kdl-vendor",
+    "version": "0.2.5-1jammy"
+  },
+  {
+    "name": "ros-humble-rcl",
+    "version": "5.3.9-1jammy"
+  },
+  {
+    "name": "ros-humble-rcl-action",
+    "version": "5.3.9-1jammy"
+  },
+  {
+    "name": "ros-humble-rcl-interfaces",
+    "version": "1.2.1-1jammy"
+  },
+  {
+    "name": "ros-humble-rcl-lifecycle",
+    "version": "5.3.9-1jammy"
+  },
+  {
+    "name": "ros-humble-rcl-logging-interface",
+    "version": "2.3.1-1jammy"
+  },
+  {
+    "name": "ros-humble-rcl-logging-spdlog",
+    "version": "2.3.1-1jammy"
+  },
+  {
+    "name": "ros-humble-rcl-yaml-param-parser",
+    "version": "5.3.9-1jammy"
+  },
+  {
+    "name": "ros-humble-rclcpp",
+    "version": "16.0.11-1jammy"
+  },
+  {
+    "name": "ros-humble-rclcpp-action",
+    "version": "16.0.11-1jammy"
+  },
+  {
+    "name": "ros-humble-rclcpp-components",
+    "version": "16.0.11-1jammy"
+  },
+  {
+    "name": "ros-humble-rclcpp-lifecycle",
+    "version": "16.0.11-1jammy"
+  },
+  {
+    "name": "ros-humble-rclpy",
+    "version": "3.3.15-1jammy"
+  },
+  {
+    "name": "ros-humble-rcpputils",
+    "version": "2.4.4-1jammy"
+  },
+  {
+    "name": "ros-humble-rcutils",
+    "version": "5.1.6-1jammy"
+  },
+  {
+    "name": "ros-humble-resource-retriever",
+    "version": "3.1.2-1jammy"
+  },
+  {
+    "name": "ros-humble-rmw",
+    "version": "6.1.2-1jammy"
+  },
+  {
+    "name": "ros-humble-rmw-dds-common",
+    "version": "1.6.0-2jammy"
+  },
+  {
+    "name": "ros-humble-rmw-fastrtps-cpp",
+    "version": "6.2.7-1jammy"
+  },
+  {
+    "name": "ros-humble-rmw-fastrtps-shared-cpp",
+    "version": "6.2.7-1jammy"
+  },
+  {
+    "name": "ros-humble-rmw-implementation",
+    "version": "2.8.4-1jammybb1"
+  },
+  {
+    "name": "ros-humble-rmw-implementation-cmake",
+    "version": "6.1.2-1jammy"
+  },
+  {
+    "name": "ros-humble-robot-localization",
+    "version": "3.5.3-1jammy"
+  },
+  {
+    "name": "ros-humble-robot-state-publisher",
+    "version": "3.0.3-2jammy"
+  },
+  {
+    "name": "ros-humble-ros-base",
+    "version": "0.10.0-1jammy"
+  },
+  {
+    "name": "ros-humble-ros-core",
+    "version": "0.10.0-1jammy"
+  },
+  {
+    "name": "ros-humble-ros-environment",
+    "version": "3.2.2-1jammy"
+  },
+  {
+    "name": "ros-humble-ros-workspace",
+    "version": "1.0.2-2jammybb1"
+  },
+  {
+    "name": "ros-humble-ros2action",
+    "version": "0.18.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ros2bag",
+    "version": "0.15.13-1jammy"
+  },
+  {
+    "name": "ros-humble-ros2cli",
+    "version": "0.18.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ros2cli-common-extensions",
+    "version": "0.1.1-4jammy"
+  },
+  {
+    "name": "ros-humble-ros2component",
+    "version": "0.18.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ros2doctor",
+    "version": "0.18.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ros2interface",
+    "version": "0.18.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ros2launch",
+    "version": "0.19.8-1jammy"
+  },
+  {
+    "name": "ros-humble-ros2lifecycle",
+    "version": "0.18.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ros2multicast",
+    "version": "0.18.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ros2node",
+    "version": "0.18.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ros2param",
+    "version": "0.18.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ros2pkg",
+    "version": "0.18.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ros2run",
+    "version": "0.18.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ros2service",
+    "version": "0.18.11-1jammy"
+  },
+  {
+    "name": "ros-humble-ros2topic",
+    "version": "0.18.11-1jammy"
+  },
+  {
+    "name": "ros-humble-rosbag2",
+    "version": "0.15.13-1jammy"
+  },
+  {
+    "name": "ros-humble-rosbag2-compression",
+    "version": "0.15.13-1jammy"
+  },
+  {
+    "name": "ros-humble-rosbag2-compression-zstd",
+    "version": "0.15.13-1jammy"
+  },
+  {
+    "name": "ros-humble-rosbag2-cpp",
+    "version": "0.15.13-1jammy"
+  },
+  {
+    "name": "ros-humble-rosbag2-interfaces",
+    "version": "0.15.13-1jammy"
+  },
+  {
+    "name": "ros-humble-rosbag2-py",
+    "version": "0.15.13-1jammy"
+  },
+  {
+    "name": "ros-humble-rosbag2-storage",
+    "version": "0.15.13-1jammy"
+  },
+  {
+    "name": "ros-humble-rosbag2-storage-default-plugins",
+    "version": "0.15.13-1jammy"
+  },
+  {
+    "name": "ros-humble-rosbag2-transport",
+    "version": "0.15.13-1jammy"
+  },
+  {
+    "name": "ros-humble-rosgraph-msgs",
+    "version": "1.2.1-1jammy"
+  },
+  {
+    "name": "ros-humble-rosidl-adapter",
+    "version": "3.1.6-1jammy"
+  },
+  {
+    "name": "ros-humble-rosidl-cli",
+    "version": "3.1.6-1jammy"
+  },
+  {
+    "name": "ros-humble-rosidl-cmake",
+    "version": "3.1.6-1jammy"
+  },
+  {
+    "name": "ros-humble-rosidl-default-generators",
+    "version": "1.2.0-2jammy"
+  },
+  {
+    "name": "ros-humble-rosidl-default-runtime",
+    "version": "1.2.0-2jammy"
+  },
+  {
+    "name": "ros-humble-rosidl-generator-c",
+    "version": "3.1.6-1jammy"
+  },
+  {
+    "name": "ros-humble-rosidl-generator-cpp",
+    "version": "3.1.6-1jammy"
+  },
+  {
+    "name": "ros-humble-rosidl-generator-py",
+    "version": "0.14.4-1jammy"
+  },
+  {
+    "name": "ros-humble-rosidl-parser",
+    "version": "3.1.6-1jammy"
+  },
+  {
+    "name": "ros-humble-rosidl-runtime-c",
+    "version": "3.1.6-1jammy"
+  },
+  {
+    "name": "ros-humble-rosidl-runtime-cpp",
+    "version": "3.1.6-1jammy"
+  },
+  {
+    "name": "ros-humble-rosidl-runtime-py",
+    "version": "0.9.3-1jammy"
+  },
+  {
+    "name": "ros-humble-rosidl-typesupport-c",
+    "version": "2.0.2-1jammy"
+  },
+  {
+    "name": "ros-humble-rosidl-typesupport-cpp",
+    "version": "2.0.2-1jammy"
+  },
+  {
+    "name": "ros-humble-rosidl-typesupport-fastrtps-c",
+    "version": "2.2.2-2jammy"
+  },
+  {
+    "name": "ros-humble-rosidl-typesupport-fastrtps-cpp",
+    "version": "2.2.2-2jammy"
+  },
+  {
+    "name": "ros-humble-rosidl-typesupport-interface",
+    "version": "3.1.6-1jammy"
+  },
+  {
+    "name": "ros-humble-rosidl-typesupport-introspection-c",
+    "version": "3.1.6-1jammy"
+  },
+  {
+    "name": "ros-humble-rosidl-typesupport-introspection-cpp",
+    "version": "3.1.6-1jammy"
+  },
+  {
+    "name": "ros-humble-rpyutils",
+    "version": "0.2.1-2jammy"
+  },
+  {
+    "name": "ros-humble-rviz-assimp-vendor",
+    "version": "11.2.16-1jammy"
+  },
+  {
+    "name": "ros-humble-rviz-common",
+    "version": "11.2.16-1jammybb3"
+  },
+  {
+    "name": "ros-humble-rviz-default-plugins",
+    "version": "11.2.16-1jammybb3"
+  },
+  {
+    "name": "ros-humble-rviz-ogre-vendor",
+    "version": "11.2.16-1jammy"
+  },
+  {
+    "name": "ros-humble-rviz-rendering",
+    "version": "11.2.16-1jammybb3"
+  },
+  {
+    "name": "ros-humble-sensor-msgs",
+    "version": "4.2.4-1jammy"
+  },
+  {
+    "name": "ros-humble-sensor-msgs-py",
+    "version": "4.2.4-1jammy"
+  },
+  {
+    "name": "ros-humble-shape-msgs",
+    "version": "4.2.4-1jammy"
+  },
+  {
+    "name": "ros-humble-shared-queues-vendor",
+    "version": "0.15.13-1jammy"
+  },
+  {
+    "name": "ros-humble-slam-toolbox",
+    "version": "2.6.9-1jammybb1"
+  },
+  {
+    "name": "ros-humble-smclib",
+    "version": "4.1.2-1jammy"
+  },
+  {
+    "name": "ros-humble-spdlog-vendor",
+    "version": "1.3.1-1jammy"
+  },
+  {
+    "name": "ros-humble-sqlite3-vendor",
+    "version": "0.15.13-1jammy"
+  },
+  {
+    "name": "ros-humble-sros2",
+    "version": "0.10.5-1jammy"
+  },
+  {
+    "name": "ros-humble-sros2-cmake",
+    "version": "0.10.5-1jammy"
+  },
+  {
+    "name": "ros-humble-statistics-msgs",
+    "version": "1.2.1-1jammy"
+  },
+  {
+    "name": "ros-humble-std-msgs",
+    "version": "4.2.4-1jammy"
+  },
+  {
+    "name": "ros-humble-std-srvs",
+    "version": "4.2.4-1jammy"
+  },
+  {
+    "name": "ros-humble-stereo-msgs",
+    "version": "4.2.4-1jammy"
+  },
+  {
+    "name": "ros-humble-tf-transformations",
+    "version": "1.1.0-1jammy"
+  },
+  {
+    "name": "ros-humble-tf2",
+    "version": "0.25.12-1jammy"
+  },
+  {
+    "name": "ros-humble-tf2-bullet",
+    "version": "0.25.12-1jammy"
+  },
+  {
+    "name": "ros-humble-tf2-eigen",
+    "version": "0.25.12-1jammy"
+  },
+  {
+    "name": "ros-humble-tf2-eigen-kdl",
+    "version": "0.25.12-1jammy"
+  },
+  {
+    "name": "ros-humble-tf2-geometry-msgs",
+    "version": "0.25.12-1jammy"
+  },
+  {
+    "name": "ros-humble-tf2-kdl",
+    "version": "0.25.12-1jammy"
+  },
+  {
+    "name": "ros-humble-tf2-msgs",
+    "version": "0.25.12-1jammy"
+  },
+  {
+    "name": "ros-humble-tf2-py",
+    "version": "0.25.12-1jammy"
+  },
+  {
+    "name": "ros-humble-tf2-ros",
+    "version": "0.25.12-1jammy"
+  },
+  {
+    "name": "ros-humble-tf2-ros-py",
+    "version": "0.25.12-1jammy"
+  },
+  {
+    "name": "ros-humble-tf2-sensor-msgs",
+    "version": "0.25.12-1jammy"
+  },
+  {
+    "name": "ros-humble-tf2-tools",
+    "version": "0.25.12-1jammy"
+  },
+  {
+    "name": "ros-humble-tinyxml-vendor",
+    "version": "0.8.3-2jammy"
+  },
+  {
+    "name": "ros-humble-tinyxml2-vendor",
+    "version": "0.7.6-1jammy"
+  },
+  {
+    "name": "ros-humble-tracetools",
+    "version": "4.1.1-1jammy"
+  },
+  {
+    "name": "ros-humble-trajectory-msgs",
+    "version": "4.2.4-1jammy"
+  },
+  {
+    "name": "ros-humble-uncrustify-vendor",
+    "version": "2.0.2-2jammy"
+  },
+  {
+    "name": "ros-humble-unique-identifier-msgs",
+    "version": "2.2.1-3jammy"
+  },
+  {
+    "name": "ros-humble-urdf",
+    "version": "2.6.1-1jammy"
+  },
+  {
+    "name": "ros-humble-urdf-parser-plugin",
+    "version": "2.6.1-1jammy"
+  },
+  {
+    "name": "ros-humble-urdfdom",
+    "version": "3.0.2-2jammy"
+  },
+  {
+    "name": "ros-humble-urdfdom-headers",
+    "version": "1.0.6-2jammy"
+  },
+  {
+    "name": "ros-humble-visualization-msgs",
+    "version": "4.2.4-1jammy"
+  },
+  {
+    "name": "ros-humble-yaml-cpp-vendor",
+    "version": "8.0.2-1jammy"
+  },
+  {
+    "name": "ros-humble-zstd-vendor",
+    "version": "0.15.13-1jammy"
+  },
+  {
+    "name": "spacemit-code-forge",
+    "version": "0.0.5"
+  },
+  {
+    "name": "spacemit-flash-dtbs",
+    "version": "1.2.3"
+  },
+  {
+    "name": "spacemit-modules-usrload",
+    "version": "0.1.3"
+  },
+  {
+    "name": "spacemit-onnxruntime",
+    "version": "2.0.3-bpo1"
+  },
+  {
+    "name": "spacemit-tcm",
+    "version": "3.0.0-bpo1+2"
+  },
+  {
+    "name": "spacemit-uart-bt",
+    "version": "2.8"
+  },
+  {
+    "name": "v4l-utils",
+    "version": "1.26.1-4build3bb2"
+  }
+]

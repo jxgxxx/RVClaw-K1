@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "board": "k1-muse-pipro",
+  "product": "minimal",
+  "description": "K1 MUSE PIPRO board - minimal build configuration",
+  "enabled_packages": [
+    "components/peripherals/motor",
+    "components/peripherals/lidar"
+  ],
+  "enabled_package_options": {
+    "components/peripherals/motor": { "enabled_drivers": ["drv_can_dm"] },
+    "components/peripherals/lidar": { "enabled_drivers": ["drv_uart_ydlidar", "drv_uart_rplidar"] }
+  },
+  "options": {
+    "parallel_jobs": 4,
+    "auto_resolve_dependencies": true
+  }
+}

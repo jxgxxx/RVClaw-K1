@@ -1,0 +1,56 @@
+schema_version: 1
+map_id: voice-slam-20260923-152736-b400c9b9-aligned-20261004
+map_yaml: map.yaml
+frame_id: map
+
+# Only the map coordinate frame has rotated -14.813231 degrees about ORIGIN.
+# These poses refer to the same four physical floor positions as the raw map.
+# Angles were selected by the operator in the new coordinate frame.
+coordinate_convention:
+  x_positive: map_x
+  y_positive: map_y
+  yaw_positive: counter_clockwise
+  pose_reference: base_footprint
+
+waypoints:
+  A:
+    name: A
+    x_m: 3.155962
+    y_m: -0.199759
+    yaw_deg: 0.0
+    yaw_rad: 0.0
+    map_validation: pending_aligned_frame_validation
+    field_validation: pending
+  B:
+    name: B
+    x_m: 6.511683
+    y_m: 2.756445
+    yaw_deg: 90.0
+    yaw_rad: 1.5707963267948966
+    map_validation: pending_aligned_frame_validation
+    field_validation: pending
+  C:
+    name: C
+    x_m: 1.422192
+    y_m: 2.444866
+    yaw_deg: 180.0
+    yaw_rad: 3.141592653589793
+    map_validation: pending_aligned_frame_validation
+    field_validation: pending
+  ORIGIN:
+    name: ORIGIN
+    x_m: 0.0
+    y_m: 0.0
+    yaw_deg: 0.0
+    yaw_rad: 0.0
+    map_validation: pending_aligned_frame_validation
+    field_validation: pending
+
+test_policy:
+  first_run_order: [A, B, C, ORIGIN]
+  initial_goal_tolerance_m: 0.05
+  initial_yaw_tolerance_rad: 0.15
+  require_amcl_converged: true
+  require_fresh_scan: true
+  require_operator_at_main_power: true
+  automatic_reverse: false

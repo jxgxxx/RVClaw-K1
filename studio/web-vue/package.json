@@ -1,0 +1,24 @@
+{
+  "name": "rvclaw-studio-web",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "@lucide/vue": "1.65.0",
+    "echarts": "6.1.0",
+    "element-plus": "2.14.7",
+    "vue": "3.5.44",
+    "write-excel-file": "4.1.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "6.0.10",
+    "playwright": "1.64.1",
+    "unplugin-vue-components": "32.1.0",
+    "vite": "8.3.5"
+  }
+}

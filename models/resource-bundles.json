@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "publication_state": "published",
+  "release_url": "https://github.com/jxgxxx/RVClaw-K1/releases/tag/k1-resources-20261106",
+  "archives": [
+    {
+      "filename": "assets.tar.gz",
+      "bytes": 395217997,
+      "sha256": "578101acd180f4c4dae3490a7c06d17cd819735630cdfea57ca3ec17cb069e22",
+      "url": "https://github.com/jxgxxx/RVClaw-K1/releases/download/k1-resources-20261106/assets.tar.gz"
+    },
+    {
+      "filename": "vision-models.tar.gz",
+      "bytes": 144400072,
+      "sha256": "7813c739b5b4920480523db1c98369d7799b3222126e8be1635b2d52914633a3",
+      "url": "https://github.com/jxgxxx/RVClaw-K1/releases/download/k1-resources-20261106/vision-models.tar.gz"
+    }
+  ]
+}

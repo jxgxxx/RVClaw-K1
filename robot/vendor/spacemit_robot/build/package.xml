@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>spacemit_robot_build</name>
+  <version>0.1.0</version>
+  <description>SDK build scripts and base deps (envsetup, build.sh, target config). Anchor package for SDK build.</description>
+
+  <maintainer email="maintainer@example.com">SpacemiT</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- Build tools and repo; checked when running m or mm. Install: sudo apt install -y build-essential cmake pkg-config wget git -->
+  <system_depend>build-essential</system_depend>
+  <system_depend>cmake</system_depend>
+  <system_depend>pkg-config</system_depend>
+  <system_depend>wget</system_depend>
+  <system_depend>git</system_depend>
+  <system_depend>jq</system_depend>
+  <system_depend>pybind11-dev</system_depend>
+  <system_depend>python3-build</system_depend>
+  <export>
+    <!-- No build_type: dependency anchor only, not built by colcon -->
+  </export>
+</package>

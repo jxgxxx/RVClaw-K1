@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>spacemit_robot_build_ros2_deps</name>
+  <version>0.1.0</version>
+  <description>System dependency anchor for building ROS2 packages in this repo.</description>
+
+  <maintainer email="maintainer@example.com">SpacemiT</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- Humble example: adjust if you build other distros. -->
+  <system_depend>ros-humble-ros-base</system_depend>
+  <system_depend>ros-dev-tools</system_depend>
+  <system_depend>ros-humble-robot-localization</system_depend>
+  <system_depend>ros-humble-joint-state-publisher</system_depend>
+  <system_depend>ros-humble-tf-transformations</system_depend>
+
+  <export>
+    <!-- Dependency anchor only. -->
+  </export>
+</package>
+

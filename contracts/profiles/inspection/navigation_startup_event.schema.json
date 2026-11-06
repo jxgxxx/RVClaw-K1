@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Stationary navigation startup progress",
+  "type": "object",
+  "required": ["event_id", "event", "status", "timestamp", "speech_key", "elapsed_s", "motion_authorized"],
+  "properties": {
+    "event_id": {"type": "string", "minLength": 1},
+    "event": {"const": "navigation_startup_progress"},
+    "status": {"const": "STARTED"},
+    "timestamp": {"type": "number"},
+    "speech_key": {"enum": ["navigation_startup_services", "navigation_startup_map", "navigation_startup_localization"]},
+    "elapsed_s": {"type": "number", "minimum": 0},
+    "motion_authorized": {"const": false}
+  },
+  "additionalProperties": false
+}

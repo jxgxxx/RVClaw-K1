@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>spacemit_robot_build_ros2_cross_deps</name>
+  <version>0.1.0</version>
+  <description>Cross-only global ROS2 build dependencies.</description>
+
+  <maintainer email="maintainer@example.com">SpacemiT</maintainer>
+  <license>Apache-2.0</license>
+
+  <system_depend when="cross" realm="host" check_kind="command" check_arg="colcon">colcon</system_depend>
+  <system_depend when="cross" realm="host">python3-colcon-cmake</system_depend>
+  <system_depend when="cross" realm="host">python3-colcon-ros</system_depend>
+  <system_depend when="cross" realm="host">python3-colcon-package-selection</system_depend>
+  <system_depend when="cross" realm="host">python3-empy</system_depend>
+  <system_depend when="cross" realm="host">python3-lark</system_depend>
+  <system_depend when="cross" realm="host">python3-numpy</system_depend>
+  <system_depend when="cross" realm="host">python3-setuptools</system_depend>
+
+  <system_depend when="cross" realm="target">ros-humble-rclcpp</system_depend>
+  <system_depend when="cross" realm="target">ros-humble-rosidl-default-generators</system_depend>
+  <system_depend when="cross" realm="target">ros-humble-rosidl-default-runtime</system_depend>
+  <system_depend when="cross" realm="target">ros-humble-rosidl-generator-py</system_depend>
+  <system_depend when="cross" realm="target">ros-humble-rosidl-runtime-py</system_depend>
+  <system_depend when="cross" realm="target">ros-humble-std-msgs</system_depend>
+  <system_depend when="cross" realm="target">ros-humble-std-srvs</system_depend>
+  <system_depend when="cross" realm="target">python3-numpy</system_depend>
+
+  <export>
+    <!-- Dependency anchor only. -->
+  </export>
+</package>

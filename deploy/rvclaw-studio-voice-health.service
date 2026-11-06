@@ -1,0 +1,18 @@
+[Unit]
+Description=RVClaw Studio passive voice hardware monitor
+
+[Service]
+Type=simple
+WorkingDirectory=/data/RVClaw
+ExecStart=/usr/bin/python3 /data/RVClaw/services/studio_voice/voice_health.py
+Nice=19
+CPUWeight=10
+CPUQuota=5%
+MemoryMax=48M
+TasksMax=8
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=5
+
+[Install]
+WantedBy=default.target

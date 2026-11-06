@@ -1,0 +1,5 @@
+# Intrusion detection app entry (demo + model refs).
+
+tracker_model: bytetrack.yaml
+test_video: ~/.cache/assets/video/001_crowd.mp4
+camera_id: 0

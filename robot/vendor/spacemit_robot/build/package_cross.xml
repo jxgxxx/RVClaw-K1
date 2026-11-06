@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>spacemit_robot_build_cross_deps</name>
+  <version>0.1.0</version>
+  <description>Cross-only global build-system dependencies.</description>
+
+  <maintainer email="maintainer@example.com">SpacemiT</maintainer>
+  <license>Apache-2.0</license>
+
+  <system_depend when="cross" realm="host">ca-certificates</system_depend>
+  <system_depend when="cross" realm="host">file</system_depend>
+  <system_depend when="cross" realm="host">make</system_depend>
+  <system_depend when="cross" realm="host">rsync</system_depend>
+  <system_depend when="cross" realm="host">xz-utils</system_depend>
+  <system_depend when="cross" realm="host">gcc-riscv64-linux-gnu</system_depend>
+  <system_depend when="cross" realm="host">g++-riscv64-linux-gnu</system_depend>
+  <system_depend when="cross" realm="host">binutils-riscv64-linux-gnu</system_depend>
+  <system_depend when="cross" realm="host" check_kind="command" check_arg="meson">meson</system_depend>
+  <system_depend when="cross" realm="host" check_kind="command" check_arg="ninja">ninja-build</system_depend>
+
+  <system_depend when="cross" realm="target">python3-dev</system_depend>
+
+  <export>
+    <!-- Dependency anchor only. -->
+  </export>
+</package>

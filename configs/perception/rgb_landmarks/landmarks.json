@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "meters": [
+    {
+      "meter_id": "PRINT-A",
+      "reference_image": "PRINT-A.png",
+      "display_region": {
+        "x": 0.2275424732881434,
+        "y": 0.31007821219308035,
+        "width": 0.646809476964614,
+        "height": 0.3790386139400422
+      },
+      "source_sha256": "b950d1647b7c8dda1186ed456c852553d43e420e8829e8de7d60791932c504bb",
+      "source_reading_method": "paddleocr_registered_current_display",
+      "pose_calibrated": false
+    },
+    {
+      "meter_id": "PRINT-B",
+      "reference_image": "PRINT-B.png",
+      "display_region": {
+        "x": 0.20531108591816213,
+        "y": 0.27877044677734375,
+        "width": 0.5864677806892017,
+        "height": 0.4455935829564145
+      },
+      "source_sha256": "c3b272a2296ee8435c50bc99d1d95f4e205c884f57c9c9edc2828e438ca7a1bb",
+      "source_reading_method": "paddleocr_registered_current_display",
+      "pose_calibrated": false
+    },
+    {
+      "meter_id": "PRINT-C",
+      "reference_image": "PRINT-C.png",
+      "display_region": {
+        "x": 0.2066115702479339,
+        "y": 0.22246696035242292,
+        "width": 0.5867768595041323,
+        "height": 0.5572687224669604
+      },
+      "source_sha256": "fbe32b4e8a83e957e7bcfe92111c48f05e95074c137b198b30ffa4baf80e25b3",
+      "source_reading_method": "registered_scale_current_pointer",
+      "pose_calibrated": false
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+# Path-only switch; original policies and units are retained.
+[Unit]
+Description=RVClaw vendor M2 wake and local command adapter
+After=default.target
+StartLimitIntervalSec=0
+RequiresMountsFor=@ROBOT_ROOT@ /data/spacemit_robot @ROBOT_ROOT@
+[Service]
+CPUAffinity=0-6
+Environment=ALSA_CONFIG_PATH=@ROBOT_ROOT@/deploy/k1/env/asound.conf
+Type=simple
+KillMode=control-group
+EnvironmentFile=@ROBOT_ROOT@/runtime/k1/environment/rvclaw-vendor-command.service.env
+WorkingDirectory=@ROBOT_ROOT@/services/rvclaw_voice
+ExecStart=@ROBOT_ROOT@/deploy/k1/with_device_groups.sh /usr/bin/python3 @ROBOT_ROOT@/services/rvclaw_voice/vendor_m2_command_adapter.py --port-device /dev/rvclaw-m260c-control --capture-device hw:CARD=XFMDPV0018,DEV=0 --baud 115200 --prompt-dir @ROBOT_ROOT@/services/rvclaw_voice/prompts --asr-model-dir @ROBOT_ROOT@/models/asr/sensevoice --vad-model-dir @ROBOT_ROOT@/models/vad/silero --no-aiui-required --silence-seconds 1.0 --no-speech-seconds 6.0 --maximum-seconds 12.0
+ExecStartPre=@ROBOT_ROOT@/deploy/k1/with_device_groups.sh /usr/bin/amixer -q -c Device -- sset PCM -10dB unmute
+ExecStopPost=@ROBOT_ROOT@/deploy/k1/env/tcm_release_if_leaked.sh stoppost
+Restart=always
+RestartSec=2
+TimeoutStartSec=90
+TimeoutStopSec=90
+
+[Install]
+WantedBy=default.target

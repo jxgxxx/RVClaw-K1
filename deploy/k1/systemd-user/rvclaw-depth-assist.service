@@ -1,0 +1,22 @@
+[Unit]
+Description=RVClaw optional Astra depth measurements
+RequiresMountsFor=/data/RVClaw
+
+[Service]
+Type=simple
+WorkingDirectory=/data/RVClaw
+ExecStart=/bin/bash /data/RVClaw/deploy/k1/run_depth_assist.sh
+Nice=10
+CPUAffinity=4-6
+CPUWeight=10
+CPUQuota=30%
+MemoryMax=128M
+TasksMax=32
+NoNewPrivileges=yes
+UMask=0077
+TimeoutStopSec=5
+KillMode=control-group
+Restart=no
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,11 @@
+{
+  "build": "8b2ff55a748f8e12d6df272451c7851881b582c2",
+  "scripts": "58b819d7c09741de9a591b0debc6db84ce3bbbe9",
+  "target": "90a7a0924ab30fb03308da1f8a3743b7040bcb4a",
+  "components/multimedia/audio": "118fb652595081dd4184d9094f5d7cd6247bcc4f",
+  "components/model_zoo/asr": "640d4df787c0778863eab2a5f5e47ddc85b2c8cc",
+  "components/model_zoo/vad": "4124a85a8efe8c3047aef5cad621b8c208c4723b",
+  "components/model_zoo/tts": "6d67807fa008376a3fa4373df5ecafc9d3fba51f",
+  "components/model_zoo/vision": "8aa8e9fab361d5b51a871431310d93414dc820ec",
+  "application/native/omni_agent": "febbeccf0892b237561265d286aac184efe85451"
+}
