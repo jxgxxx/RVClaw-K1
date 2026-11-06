@@ -1,0 +1,288 @@
+{
+  "schema_version": 1,
+  "scripts": [
+    {
+      "profile": "mission",
+      "source": "deploy/k1/compatibility/nav2_fast_localization.py",
+      "destination": "scripts/nav2_fast_localization.py",
+      "mode": 493
+    },
+    {
+      "profile": "mission",
+      "source": "deploy/k1/compatibility/nav2_forward_goal_030.py",
+      "destination": "scripts/nav2_forward_goal_030.py",
+      "mode": 493
+    },
+    {
+      "profile": "mission",
+      "source": "deploy/k1/compatibility/nav2_global_localization_scan.py",
+      "destination": "scripts/nav2_global_localization_scan.py",
+      "mode": 436
+    },
+    {
+      "profile": "mission",
+      "source": "deploy/k1/compatibility/nav2_heading_spin_left_0350.py",
+      "destination": "scripts/nav2_heading_spin_left_0350.py",
+      "mode": 493
+    },
+    {
+      "profile": "mission",
+      "source": "deploy/k1/compatibility/nav2_persistent_route.sh",
+      "destination": "scripts/nav2_persistent_route.sh",
+      "mode": 493
+    },
+    {
+      "profile": "mission",
+      "source": "deploy/k1/compatibility/rvclaw_waypoint_client.py",
+      "destination": "scripts/rvclaw_waypoint_client.py",
+      "mode": 493
+    },
+    {
+      "profile": "mission",
+      "source": "deploy/k1/compatibility/rvclaw_waypoint_route_client.py",
+      "destination": "scripts/rvclaw_waypoint_route_client.py",
+      "mode": 438
+    },
+    {
+      "profile": "mission",
+      "source": "deploy/k1/compatibility/static_match_consensus.py",
+      "destination": "scripts/static_match_consensus.py",
+      "mode": 493
+    },
+    {
+      "profile": "mission",
+      "source": "deploy/k1/compatibility/stm32_control_client.py",
+      "destination": "scripts/stm32_control_client.py",
+      "mode": 493
+    },
+    {
+      "profile": "mission",
+      "source": "deploy/k1/compatibility/verify_runtime_map.py",
+      "destination": "scripts/verify_runtime_map.py",
+      "mode": 436
+    },
+    {
+      "profile": "navigation",
+      "source": "deploy/k1/compatibility/nav2_persistent_runtime.sh",
+      "destination": "scripts/nav2_persistent_runtime.sh",
+      "mode": 493
+    },
+    {
+      "profile": "mapping",
+      "source": "deploy/k1/profile-scripts/mapping/autonomous_mapping_session.sh",
+      "destination": "scripts/autonomous_mapping_session.sh",
+      "mode": 493
+    },
+    {
+      "profile": "mapping",
+      "source": "deploy/k1/profile-scripts/mapping/m10_serial_probe.py",
+      "destination": "scripts/m10_serial_probe.py",
+      "mode": 493
+    },
+    {
+      "profile": "mapping",
+      "source": "deploy/k1/profile-scripts/mapping/navigation_stationary_probe.py",
+      "destination": "scripts/navigation_stationary_probe.py",
+      "mode": 493
+    },
+    {
+      "profile": "mapping",
+      "source": "deploy/k1/profile-scripts/mapping/rvclaw_visualization.sh",
+      "destination": "scripts/rvclaw_visualization.sh",
+      "mode": 493
+    },
+    {
+      "profile": "mapping",
+      "source": "deploy/k1/profile-scripts/mapping/slam_mapping_session.sh",
+      "destination": "scripts/slam_mapping_session.sh",
+      "mode": 493
+    },
+    {
+      "profile": "base",
+      "source": "deploy/k1/profile-scripts/base/m10_serial_probe.py",
+      "destination": "scripts/m10_serial_probe.py",
+      "mode": 436
+    },
+    {
+      "profile": "base",
+      "source": "deploy/k1/profile-scripts/base/nav2_global_localization_scan.py",
+      "destination": "scripts/nav2_global_localization_scan.py",
+      "mode": 436
+    },
+    {
+      "profile": "base",
+      "source": "deploy/k1/profile-scripts/base/nav2_heading_spin_left_0350.py",
+      "destination": "scripts/nav2_heading_spin_left_0350.py",
+      "mode": 438
+    },
+    {
+      "profile": "base",
+      "source": "deploy/k1/profile-scripts/base/nav2_heading_spin_left_90.py",
+      "destination": "scripts/nav2_heading_spin_left_90.py",
+      "mode": 493
+    },
+    {
+      "profile": "base",
+      "source": "deploy/k1/profile-scripts/base/nav2_heading_spin_left_90.sh",
+      "destination": "scripts/nav2_heading_spin_left_90.sh",
+      "mode": 493
+    },
+    {
+      "profile": "base",
+      "source": "deploy/k1/profile-scripts/base/rvclaw_visualization.sh",
+      "destination": "scripts/rvclaw_visualization.sh",
+      "mode": 493
+    },
+    {
+      "profile": "base",
+      "source": "deploy/k1/profile-scripts/base/static_match_consensus.py",
+      "destination": "scripts/static_match_consensus.py",
+      "mode": 436
+    },
+    {
+      "profile": "base",
+      "source": "deploy/k1/profile-scripts/base/stm32_control_client.py",
+      "destination": "scripts/stm32_control_client.py",
+      "mode": 436
+    }
+  ],
+  "vision": [
+    {
+      "source": "services/rvclaw_api/native/CMakeLists.txt",
+      "destination": "native/CMakeLists.txt",
+      "mode": 436
+    },
+    {
+      "source": "services/rvclaw_api/native/helmet_compliance.h",
+      "destination": "native/helmet_compliance.h",
+      "mode": 436
+    },
+    {
+      "source": "services/rvclaw_api/native/yolov8_mjpeg.cpp",
+      "destination": "native/yolov8_mjpeg.cpp",
+      "mode": 436
+    },
+    {
+      "source": "services/rvclaw_api/rvclaw_api/__init__.py",
+      "destination": "rvclaw_api/__init__.py",
+      "mode": 436
+    },
+    {
+      "source": "services/rvclaw_api/rvclaw_api/meter_config.py",
+      "destination": "rvclaw_api/meter_config.py",
+      "mode": 436
+    },
+    {
+      "source": "services/rvclaw_api/rvclaw_api/meter_reference.py",
+      "destination": "rvclaw_api/meter_reference.py",
+      "mode": 436
+    },
+    {
+      "source": "services/rvclaw_api/rvclaw_api/meter_trial.py",
+      "destination": "rvclaw_api/meter_trial.py",
+      "mode": 436
+    },
+    {
+      "source": "services/rvclaw_api/rvclaw_api/person_tracking.py",
+      "destination": "rvclaw_api/person_tracking.py",
+      "mode": 436
+    },
+    {
+      "source": "services/rvclaw_api/rvclaw_api/pointer_gauge_adapter.py",
+      "destination": "rvclaw_api/pointer_gauge_adapter.py",
+      "mode": 436
+    },
+    {
+      "source": "services/rvclaw_api/rvclaw_api/pointer_reference.py",
+      "destination": "rvclaw_api/pointer_reference.py",
+      "mode": 436
+    },
+    {
+      "source": "services/rvclaw_api/rvclaw_api/rvbench_store.py",
+      "destination": "rvclaw_api/rvbench_store.py",
+      "mode": 436
+    },
+    {
+      "source": "services/rvclaw_api/rvclaw_api/sample_flow.py",
+      "destination": "rvclaw_api/sample_flow.py",
+      "mode": 436
+    },
+    {
+      "source": "services/rvclaw_api/profiles/inspection/rvclaw_api/server.py",
+      "destination": "rvclaw_api/server.py",
+      "mode": 436
+    },
+    {
+      "source": "services/rvclaw_api/rvclaw_api/video_detection.py",
+      "destination": "rvclaw_api/video_detection.py",
+      "mode": 436
+    },
+    {
+      "source": "services/rvclaw_api/rvclaw_api/vision_state.py",
+      "destination": "rvclaw_api/vision_state.py",
+      "mode": 436
+    }
+  ],
+  "contracts": [
+    {
+      "source": "contracts/command_result.schema.json",
+      "destination": "contracts/command_result.schema.json"
+    },
+    {
+      "source": "contracts/device_status.schema.json",
+      "destination": "contracts/device_status.schema.json"
+    },
+    {
+      "source": "contracts/profiles/inspection/inspection_result.schema.json",
+      "destination": "contracts/inspection_result.schema.json"
+    },
+    {
+      "source": "contracts/person_tracking.schema.json",
+      "destination": "contracts/person_tracking.schema.json"
+    },
+    {
+      "source": "contracts/task_state.schema.json",
+      "destination": "contracts/task_state.schema.json"
+    },
+    {
+      "source": "contracts/vision_state.schema.json",
+      "destination": "contracts/vision_state.schema.json"
+    },
+    {
+      "source": "contracts/voice_command.schema.json",
+      "destination": "contracts/voice_command.schema.json"
+    }
+  ],
+  "algorithms": [
+    {
+      "source": "robot/profiles/inspection/overrides/rvclaw_algo/rvclaw_algo/__init__.py",
+      "destination": "rvclaw_algo/__init__.py",
+      "mode": 436
+    },
+    {
+      "source": "robot/ros2_ws/src/rvclaw_algo/rvclaw_algo/ethz_gauge_reader.py",
+      "destination": "rvclaw_algo/ethz_gauge_reader.py",
+      "mode": 436
+    },
+    {
+      "source": "robot/ros2_ws/src/rvclaw_algo/rvclaw_algo/meter_reader.py",
+      "destination": "rvclaw_algo/meter_reader.py",
+      "mode": 436
+    },
+    {
+      "source": "robot/ros2_ws/src/rvclaw_algo/rvclaw_algo/ppocr_onnx.py",
+      "destination": "rvclaw_algo/ppocr_onnx.py",
+      "mode": 436
+    },
+    {
+      "source": "robot/ros2_ws/src/rvclaw_algo/rvclaw_algo/sample_recognizer.py",
+      "destination": "rvclaw_algo/sample_recognizer.py",
+      "mode": 436
+    },
+    {
+      "source": "robot/ros2_ws/src/rvclaw_algo/rvclaw_algo/yolov8n_detector.py",
+      "destination": "rvclaw_algo/yolov8n_detector.py",
+      "mode": 436
+    }
+  ]
+}

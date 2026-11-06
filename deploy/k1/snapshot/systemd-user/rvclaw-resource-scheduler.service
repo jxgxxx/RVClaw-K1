@@ -1,0 +1,14 @@
+[Unit]
+Description=RVClaw device and task aware navigation scheduling
+After=default.target
+
+[Service]
+Type=simple
+ExecStart=@ROBOT_ROOT@/deploy/k1/with_device_groups.sh /usr/bin/python3 @ROBOT_ROOT@/deploy/k1/runtime_demand.py supervise --idle-seconds 60
+Restart=on-failure
+RestartSec=10
+TimeoutStopSec=5
+UMask=0077
+
+[Install]
+WantedBy=default.target

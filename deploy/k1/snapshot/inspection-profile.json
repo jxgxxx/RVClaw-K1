@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "map_id": "inspection-eb72268b158a",
+  "name": "走廊巡检",
+  "map_file": "/data/RVClaw/configs/scenes/inspection-k1-reviewed/map.yaml",
+  "waypoints_file": "/data/RVClaw/configs/scenes/inspection-k1-reviewed/waypoints.yaml",
+  "inspection_config": "/data/RVClaw/configs/scenes/inspection-k1-reviewed/inspection_route_tasks.yaml",
+  "catalog_file": "/data/RVClaw/configs/scenes/inspection-k1-reviewed/mission_catalog.yaml",
+  "localization_cache": "/data/RVClaw/runtime/k1/scenes/inspection-k1-reviewed/localization-pose.json"
+}

@@ -1,0 +1,4 @@
+# Preserve the captured source bytes used by SHA256 manifests on every platform.
+* -text
+*.md text eol=lf
+*.mp4 binary

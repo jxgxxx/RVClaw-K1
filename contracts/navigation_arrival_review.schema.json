@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Stopped arrival review pause event",
+  "description": "Additional navigation_paused case. No automatic retry or motion authorization. Existing event fields remain unchanged.",
+  "type": "object",
+  "required": ["event", "status", "failure_code", "speech_key", "speech_text", "requires_ack"],
+  "properties": {
+    "event": {"const": "navigation_paused"},
+    "status": {"const": "FAIL"},
+    "failure_code": {"const": "ARRIVAL_VERIFICATION_INCOMPLETE"},
+    "speech_key": {"const": "navigation_paused_arrival_review"},
+    "speech_text": {"const": "到点定位确认未完成，巡检已暂停。请保持小车不动并检查定位。"},
+    "requires_ack": {"const": true},
+    "max_attempts": {"const": 0},
+    "requires_global_localization": {"const": false}
+  }
+}

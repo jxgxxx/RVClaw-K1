@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Current inspection meter frame request",
+  "type": "object",
+  "required": ["meter_type", "meter_id"],
+  "properties": {
+    "meter_type": {"enum": ["digital", "pointer"]},
+    "meter_id": {"type": "string", "pattern": "^[A-Za-z0-9_-]{1,64}$"},
+    "calibration": {"type": ["object", "null"]},
+    "timeout_s": {"type": "number", "minimum": 0.05, "maximum": 10, "description": "Fresh-frame capture wait; retained for compatibility."},
+    "request_budget_s": {"type": "number", "minimum": 0.05, "maximum": 30, "description": "Optional total capture and pointer inference budget, bounded by the caller's remaining point deadline. Omission retains timeout_s as the pointer budget."},
+    "max_frame_age_ms": {"type": "number", "minimum": 50, "maximum": 3000},
+    "required_camera_mode": {"const": "astra_raw"},
+    "evidence_session": {"type": "string"},
+    "waypoint": {"type": "string"},
+    "capture_index": {"type": "integer", "minimum": 1, "maximum": 9999}
+  },
+  "dependencies": {
+    "evidence_session": ["waypoint", "capture_index"],
+    "waypoint": ["evidence_session", "capture_index"],
+    "capture_index": ["evidence_session", "waypoint"]
+  },
+  "additionalProperties": false
+}

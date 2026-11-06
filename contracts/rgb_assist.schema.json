@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RGB assist observation (advisory, never a navigation pose)",
+  "type": "object",
+  "required": ["version", "captured_at", "status", "motion_authorized"],
+  "properties": {
+    "version": {"const": 1},
+    "captured_at": {"type": "number"},
+    "status": {"enum": ["observed", "unknown", "unavailable"]},
+    "motion_authorized": {"const": false},
+    "alignment": {"type": "object"},
+    "landmark": {"type": "object"},
+    "motion": {"type": "object"},
+    "reason": {"type": "string"}
+  },
+  "$comment": "GET /api/rgb-assist/frame returns existing astra_raw JPEG, X-RGB-Captured-At host receive UNIX seconds, X-RGB-Sequence, X-RGB-Generation. No hardware capture/mode switch. GET /api/rgb-assist/status returns cached advisory. Additive trial.rgb_assist evaluates same-image registered display geometry; no change to reading/status/threshold. /rvclaw/perception/rgb_assist is std_msgs/String JSON. No control or initialpose publishers. Missing, stale, ambiguous or uncalibrated evidence is unknown. Identity is an appearance match, not absolute map coordinates. Pixel offsets are not distances or steering commands. Host receive timestamps are not calibrated exposure timestamps."
+}

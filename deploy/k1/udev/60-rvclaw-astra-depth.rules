@@ -1,0 +1,2 @@
+# Narrow depth-only permission. RGB and other USB devices are unaffected.
+SUBSYSTEM=="usb", ATTR{idVendor}=="2bc5", ATTR{idProduct}=="0403", GROUP="video", MODE="0660", TAG+="uaccess"

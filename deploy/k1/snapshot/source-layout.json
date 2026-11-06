@@ -1,0 +1,407 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "source": "services/rvclaw_api/rvclaw_api/rvbench_store.py",
+      "target": "vision/services/rvclaw_api/rvclaw_api/rvbench_store.py",
+      "mode": 436,
+      "sha256": "9284d4a1be1aae15900e5c0f1938996f22fd73df8797b70ed9c4213b0fbb3b11"
+    },
+    {
+      "source": "services/rvclaw_api/rvclaw_api/__init__.py",
+      "target": "vision/services/rvclaw_api/rvclaw_api/__init__.py",
+      "mode": 436,
+      "sha256": "0a1a4572a55c59f5409faa6fc51c640b834c26d482163b68acedc0706e581f65"
+    },
+    {
+      "source": "services/rvclaw_api/rvclaw_api/pointer_reference.py",
+      "target": "vision/services/rvclaw_api/rvclaw_api/pointer_reference.py",
+      "mode": 436,
+      "sha256": "7627aead834b4021039d9f2c2fba13c142b9579e13c1db8a3c8a4d5922869f20"
+    },
+    {
+      "source": "services/rvclaw_api/rvclaw_api/video_detection.py",
+      "target": "vision/services/rvclaw_api/rvclaw_api/video_detection.py",
+      "mode": 436,
+      "sha256": "1e8e9385761e0dd624b9aa00087877edc2f75106a92f32b5211eeb351e81fa41"
+    },
+    {
+      "source": "services/rvclaw_api/rvclaw_api/person_tracking.py",
+      "target": "vision/services/rvclaw_api/rvclaw_api/person_tracking.py",
+      "mode": 436,
+      "sha256": "2fcb4745370551d30ff0b321bc7d92ed930713df7e1a353dfe42d37d902ecb98"
+    },
+    {
+      "source": "services/rvclaw_api/rvclaw_api/server.py",
+      "target": "vision/services/rvclaw_api/rvclaw_api/server.py",
+      "mode": 436,
+      "sha256": "cc92983a69508c133c50d9191245a703fce8954e6619f150131a8d8f585fdff9"
+    },
+    {
+      "source": "services/rvclaw_api/rvclaw_api/vision_state.py",
+      "target": "vision/services/rvclaw_api/rvclaw_api/vision_state.py",
+      "mode": 436,
+      "sha256": "c742abd794ecad53e3ffb5e1f0ed2f40c5d7d4e5bf70992458758ea68747ab5e"
+    },
+    {
+      "source": "services/rvclaw_api/rvclaw_api/meter_trial.py",
+      "target": "vision/services/rvclaw_api/rvclaw_api/meter_trial.py",
+      "mode": 436,
+      "sha256": "79d2eac5536df7e962f3105fdcde2756039c7cfacd1d3487611fae15043dd130"
+    },
+    {
+      "source": "services/rvclaw_api/rvclaw_api/sample_flow.py",
+      "target": "vision/services/rvclaw_api/rvclaw_api/sample_flow.py",
+      "mode": 436,
+      "sha256": "28793cf0cbf66f626bcfba51b98459aca838a2221d880619bd279fae9ffc1d56"
+    },
+    {
+      "source": "services/rvclaw_api/rvclaw_api/meter_config.py",
+      "target": "vision/services/rvclaw_api/rvclaw_api/meter_config.py",
+      "mode": 436,
+      "sha256": "3bc005fa5084c59fed03c142cebeaba806c0f0fd42f5f78a41c1923dcfe891bd"
+    },
+    {
+      "source": "services/rvclaw_api/rvclaw_api/meter_reference.py",
+      "target": "vision/services/rvclaw_api/rvclaw_api/meter_reference.py",
+      "mode": 436,
+      "sha256": "80741a3adc1d1e0e3a7dcc80947d45fcf14c30b135c7e8c93682138ce27987b3"
+    },
+    {
+      "source": "services/rvclaw_api/rvclaw_api/pointer_gauge_adapter.py",
+      "target": "vision/services/rvclaw_api/rvclaw_api/pointer_gauge_adapter.py",
+      "mode": 436,
+      "sha256": "af4dcb400ba2c8c55ea95d4907e39ab31f2047f065db40c6e189e01c46e3bcae"
+    },
+    {
+      "source": "services/rvclaw_api/native/yolov8_mjpeg.cpp",
+      "target": "vision/services/rvclaw_api/native/yolov8_mjpeg.cpp",
+      "mode": 420,
+      "sha256": "78720a0a3abac936b86060def9a6942d9c564aac2b0984236d30e57daef2ecad"
+    },
+    {
+      "source": "services/rvclaw_api/native/CMakeLists.txt",
+      "target": "vision/services/rvclaw_api/native/CMakeLists.txt",
+      "mode": 436,
+      "sha256": "f4ba3ba13226c08d816be7bbc12bd88dd9f9af64d32ab52b9f457d5ee91f6f87"
+    },
+    {
+      "source": "services/rvclaw_api/native/helmet_compliance.h",
+      "target": "vision/services/rvclaw_api/native/helmet_compliance.h",
+      "mode": 436,
+      "sha256": "3634c883199cc42d964841404349903935baad7ac12773a87b8f61f52aa50872"
+    },
+    {
+      "source": "robot/ros2_ws/src/rvclaw_algo/rvclaw_algo/yolov8n_detector.py",
+      "target": "vision/robot/ros2_ws/src/rvclaw_algo/rvclaw_algo/yolov8n_detector.py",
+      "mode": 436,
+      "sha256": "fd02afa693fb449fa4007264da5bca598d0837552351558a0c03654d07102a6b"
+    },
+    {
+      "source": "robot/ros2_ws/src/rvclaw_algo/rvclaw_algo/ethz_gauge_reader.py",
+      "target": "vision/robot/ros2_ws/src/rvclaw_algo/rvclaw_algo/ethz_gauge_reader.py",
+      "mode": 436,
+      "sha256": "d2705d24a6b0b4593fb8f49ddaa5fa2ba23c0eb32ecc446fc6ea1f4945535f82"
+    },
+    {
+      "source": "robot/ros2_ws/src/rvclaw_algo/rvclaw_algo/ppocr_onnx.py",
+      "target": "vision/robot/ros2_ws/src/rvclaw_algo/rvclaw_algo/ppocr_onnx.py",
+      "mode": 436,
+      "sha256": "69e81e230bfb7d2d068c6be66ece2b55fd4793565dd424657964e5de23bb3d65"
+    },
+    {
+      "source": "robot/ros2_ws/src/rvclaw_algo/rvclaw_algo/__init__.py",
+      "target": "vision/robot/ros2_ws/src/rvclaw_algo/rvclaw_algo/__init__.py",
+      "mode": 436,
+      "sha256": "dc39f0a6bd5e5bb0953eecc7324974fdb98985bf706bff8fa15026eab4e1ffd6"
+    },
+    {
+      "source": "robot/ros2_ws/src/rvclaw_algo/rvclaw_algo/sample_recognizer.py",
+      "target": "vision/robot/ros2_ws/src/rvclaw_algo/rvclaw_algo/sample_recognizer.py",
+      "mode": 436,
+      "sha256": "a750c44c9cbeaa969aa3304019ec60b56d21406f18189f05c5636d0be779cb24"
+    },
+    {
+      "source": "robot/ros2_ws/src/rvclaw_algo/rvclaw_algo/meter_reader.py",
+      "target": "vision/robot/ros2_ws/src/rvclaw_algo/rvclaw_algo/meter_reader.py",
+      "mode": 436,
+      "sha256": "b613121f24b43ddaa60ca0d077f1adc5359700cc8d6012181cca30395f020abe"
+    },
+    {
+      "source": "configs/device/meter/meters.json",
+      "target": "vision/configs/meter/meters.json",
+      "mode": 436,
+      "sha256": "8c9e5fbb440f29c2d794f57c38eff21298f5432e43fee1ce47a7cea0cd75de5b"
+    },
+    {
+      "source": "configs/thresholds/general_yolov8.yaml",
+      "target": "vision/configs/thresholds/general_yolov8.yaml",
+      "mode": 420,
+      "sha256": "1d255be460fdc4008925832ad51cb6eec298da6d3cd79ae2a70eba2b4e21c4a2"
+    },
+    {
+      "source": "configs/thresholds/helmet_labels.txt",
+      "target": "vision/configs/thresholds/helmet_labels.txt",
+      "mode": 436,
+      "sha256": "b49c8f9fb3b62c3f7b30cd51c0779c2b1564edf3981e423accdf3f995ba24409"
+    },
+    {
+      "source": "configs/thresholds/helmet_yolov8.yaml",
+      "target": "vision/configs/thresholds/helmet_yolov8.yaml",
+      "mode": 436,
+      "sha256": "35af0135573ba8e2e64c1c4c1ef3a5fe66fa90aa313d529b2111cca8cb7cb750"
+    },
+    {
+      "source": "configs/thresholds/hardhat_labels.txt",
+      "target": "vision/configs/thresholds/hardhat_labels.txt",
+      "mode": 436,
+      "sha256": "f49ea3211387ffa04afe6b6b9d9d5755ac893f56f2feaaaea7b89e95721cc5ec"
+    },
+    {
+      "source": "configs/thresholds/README.md",
+      "target": "vision/configs/thresholds/README.md",
+      "mode": 436,
+      "sha256": "e2e888fde8c51d77ae967c31e042490d0e80ccc8061280eda2f3833e7a927724"
+    },
+    {
+      "source": "configs/thresholds/astra_person_bytetrack.yaml",
+      "target": "vision/configs/thresholds/astra_person_bytetrack.yaml",
+      "mode": 436,
+      "sha256": "0347cd3f60ffa204bfca33e4f56c34c6c081dfec5531a3ac8527bbd2ecd6333c"
+    },
+    {
+      "source": "configs/thresholds/hardhat_yolov8.yaml",
+      "target": "vision/configs/thresholds/hardhat_yolov8.yaml",
+      "mode": 420,
+      "sha256": "e5ead437e46ead36d44aae822aaa0592d582dc57ec0429a7caebe5ef5f631c3b"
+    },
+    {
+      "source": "configs/device/vision/ppocr_meter_upload.yaml",
+      "target": "vision/configs/vision/ppocr_meter_upload.yaml",
+      "mode": 436,
+      "sha256": "e84f0fd83fb8e2161e20c77e3b02286944b7029bd16e5b17f4cac63b01785bf9"
+    },
+    {
+      "source": "configs/device/vision/ppocr_meter_rec.yaml",
+      "target": "vision/configs/vision/ppocr_meter_rec.yaml",
+      "mode": 436,
+      "sha256": "180531e36f940bce0e8131160b8c9e213a6f3e60afa01c9693ebe1f1c69606ba"
+    },
+    {
+      "source": "configs/device/meter/reference-images/PRINT-B.jpg",
+      "target": "vision/configs/meter/reference-images/PRINT-B.jpg",
+      "mode": 436,
+      "sha256": "ce7f51d09601ba806fcb317c44d8ac55446fa3794af9a724e12177bbd721a2f6"
+    },
+    {
+      "source": "configs/device/meter/reference-images/PRINT-C.jpg",
+      "target": "vision/configs/meter/reference-images/PRINT-C.jpg",
+      "mode": 436,
+      "sha256": "e5877a8fbdeb9ddd0f6bf92258a09e8dae3e9bc29aa8749e88683bd691bb16a5"
+    },
+    {
+      "source": "configs/device/meter/reference-images/PRINT-A.png",
+      "target": "vision/configs/meter/reference-images/PRINT-A.png",
+      "mode": 436,
+      "sha256": "64a54a9a1dd5a792c0d30f0487ff63fe9a8877da1fc2b0da106078be835a4fb4"
+    },
+    {
+      "source": "deploy/k1/compatibility/verify_runtime_map.py",
+      "target": "mission/scripts/verify_runtime_map.py",
+      "mode": 436,
+      "sha256": "11b4993050124989a95e7fb84c2e8ef90eea814a464ec4f261cc4739d44e7c01"
+    },
+    {
+      "source": "deploy/k1/compatibility/rvclaw_waypoint_route_client.py",
+      "target": "mission/scripts/rvclaw_waypoint_route_client.py",
+      "mode": 438,
+      "sha256": "c8336204dc8788154155130d10408f47745775f013d19765c962f442ffa770f8"
+    },
+    {
+      "source": "deploy/k1/compatibility/c_stationary_reference.py",
+      "target": "mission/scripts/c_stationary_reference.py",
+      "mode": 420,
+      "sha256": "a029965ebb9a227545c4404857b1dc24d77b2ce8c6828c74b75302c58b69541a"
+    },
+    {
+      "source": "deploy/k1/compatibility/stm32_control_client.py",
+      "target": "mission/scripts/stm32_control_client.py",
+      "mode": 493,
+      "sha256": "8c10eedd66660b63000c59a636f618cfdd9b76f919a5c86db95e35a6172bebb7"
+    },
+    {
+      "source": "deploy/k1/compatibility/control_keepalive.py",
+      "target": "mission/scripts/control_keepalive.py",
+      "mode": 436,
+      "sha256": "df78194a319f321e6ea20b25b657cc438bb55dbb4f879a710450be3f2fa3517e"
+    },
+    {
+      "source": "deploy/k1/compatibility/b_localization_reference.py",
+      "target": "mission/scripts/b_localization_reference.py",
+      "mode": 420,
+      "sha256": "35551ae3f6d987555117859e3dd7efcdbe9d1e02b86214be99997a52f1a603c1"
+    },
+    {
+      "source": "deploy/k1/compatibility/origin_reference_policy.py",
+      "target": "mission/scripts/origin_reference_policy.py",
+      "mode": 420,
+      "sha256": "6b8cbc8d79ca81bb65979668704c1e442cbe81b8a6c35d4a934627cad891bf7c"
+    },
+    {
+      "source": "deploy/k1/compatibility/b_stopped_arrival.py",
+      "target": "mission/scripts/b_stopped_arrival.py",
+      "mode": 420,
+      "sha256": "ddcf79c9d75fba81fe8f66f0a706388964b182b1ba8de5793cc5f9ae9170ea27"
+    },
+    {
+      "source": "deploy/k1/compatibility/inspection_localization_profile.py",
+      "target": "mission/scripts/inspection_localization_profile.py",
+      "mode": 420,
+      "sha256": "8cfa83037b1cd6a0745f111c66cf60fe416501f3f7423ed94062001707d47ee6"
+    },
+    {
+      "source": "deploy/k1/compatibility/c_stopped_arrival.py",
+      "target": "mission/scripts/c_stopped_arrival.py",
+      "mode": 420,
+      "sha256": "aabd3424562ee3e72d6d8fb34a94f4dc1779f7a6b3bb64b13412631ce37c40b5"
+    },
+    {
+      "source": "deploy/k1/compatibility/nav2_global_localization_scan.py",
+      "target": "mission/scripts/nav2_global_localization_scan.py",
+      "mode": 436,
+      "sha256": "6de01741af99be94a1032b71f83fae191a8155b617e1b8f7bf89a3cbbac34dc5"
+    },
+    {
+      "source": "deploy/k1/compatibility/nav2_persistent_route.sh",
+      "target": "mission/scripts/nav2_persistent_route.sh",
+      "mode": 420,
+      "sha256": "446c4267b08c185dc7f1bc0d81384a0661584d29c6f07b6850cd1c9c41287ea5"
+    },
+    {
+      "source": "deploy/k1/compatibility/ros_environment_cache.py",
+      "target": "mission/scripts/ros_environment_cache.py",
+      "mode": 436,
+      "sha256": "0474cb764464ca56552948b95569b773b43dce95be214db505a88d663622e234"
+    },
+    {
+      "source": "deploy/k1/compatibility/nav2_fast_localization.py",
+      "target": "mission/scripts/nav2_fast_localization.py",
+      "mode": 493,
+      "sha256": "9070febf998ca63a4bc5c0bbdfbe2a07aa5758a024f477577f195f666161862b"
+    },
+    {
+      "source": "deploy/k1/compatibility/startup_guard.py",
+      "target": "mission/scripts/startup_guard.py",
+      "mode": 420,
+      "sha256": "36e1d3f5b65ad899f4dd17181b4e14fc97fb13f655fa78c6137907c10157f711"
+    },
+    {
+      "source": "deploy/k1/compatibility/static_match_consensus.py",
+      "target": "mission/scripts/static_match_consensus.py",
+      "mode": 493,
+      "sha256": "8d7cdace80d1822318d6943cdecf9189915902eaa2c05f3490d2493d8157f31d"
+    },
+    {
+      "source": "deploy/k1/compatibility/nav2_forward_goal_030.py",
+      "target": "mission/scripts/nav2_forward_goal_030.py",
+      "mode": 493,
+      "sha256": "1c83ca21f49502dee1d1ebb04611b34c3e24e7eacfba0adc21e4772ecf64d8c3"
+    },
+    {
+      "source": "deploy/k1/compatibility/nav2_heading_spin_left_0350.py",
+      "target": "mission/scripts/nav2_heading_spin_left_0350.py",
+      "mode": 493,
+      "sha256": "c8a26ed59d62a1ea6736e8023969039c7d063ea84b31b8fa87df064e0d61f34e"
+    },
+    {
+      "source": "deploy/k1/compatibility/rvclaw_waypoint_client.py",
+      "target": "mission/scripts/rvclaw_waypoint_client.py",
+      "mode": 493,
+      "sha256": "37105ba9742011892b3b55e43f1f6819d2a26097d3e9c5136802d7206e0d8038"
+    },
+    {
+      "source": "deploy/k1/compatibility/nav2_persistent_runtime.sh",
+      "target": "navigation/scripts/nav2_persistent_runtime.sh",
+      "mode": 436,
+      "sha256": "d46cad6048779856ce6675aeca0d4ac381cadd64e177111a0adb504b38fd72d7"
+    },
+    {
+      "source": "deploy/k1/profile-scripts/base/m10_serial_probe.py",
+      "target": "base/scripts/m10_serial_probe.py",
+      "mode": 436,
+      "sha256": "6ae91885b41f236d96589dd5d99d1bb51b4eb5f8b6426dcb15161505b500d771"
+    },
+    {
+      "source": "deploy/k1/profile-scripts/base/nav2_global_localization_scan.py",
+      "target": "base/scripts/nav2_global_localization_scan.py",
+      "mode": 436,
+      "sha256": "188ed82ca1fc6c540c8293dc4010a77a05ab10278a96fdafb06796acb5f867d7"
+    },
+    {
+      "source": "deploy/k1/profile-scripts/base/nav2_heading_spin_left_0350.py",
+      "target": "base/scripts/nav2_heading_spin_left_0350.py",
+      "mode": 438,
+      "sha256": "e7ab4dae1f4e2fc1ec248f4d937e99436e3588e8fe82e3e4bce8ecb2d8d4ce81"
+    },
+    {
+      "source": "deploy/k1/profile-scripts/base/nav2_heading_spin_left_90.py",
+      "target": "base/scripts/nav2_heading_spin_left_90.py",
+      "mode": 493,
+      "sha256": "a2d691fd6d6dbf3fc5126190a223f188f3f8da7d5e7b03dd853a45340958ad56"
+    },
+    {
+      "source": "deploy/k1/profile-scripts/base/nav2_heading_spin_left_90.sh",
+      "target": "base/scripts/nav2_heading_spin_left_90.sh",
+      "mode": 493,
+      "sha256": "c6ebb09d3f71f30c789c756b335f8d1a19d8a56d67db9f71119f3a20cbf3b11e"
+    },
+    {
+      "source": "deploy/k1/profile-scripts/base/rvclaw_visualization.sh",
+      "target": "base/scripts/rvclaw_visualization.sh",
+      "mode": 493,
+      "sha256": "0f7d3339437c008c5e6a1bd64f0a3c70357f5e60bd687d18ff8cbe4bb6878d8f"
+    },
+    {
+      "source": "deploy/k1/profile-scripts/base/static_match_consensus.py",
+      "target": "base/scripts/static_match_consensus.py",
+      "mode": 436,
+      "sha256": "8d7cdace80d1822318d6943cdecf9189915902eaa2c05f3490d2493d8157f31d"
+    },
+    {
+      "source": "deploy/k1/profile-scripts/base/stm32_control_client.py",
+      "target": "base/scripts/stm32_control_client.py",
+      "mode": 436,
+      "sha256": "8c10eedd66660b63000c59a636f618cfdd9b76f919a5c86db95e35a6172bebb7"
+    },
+    {
+      "source": "deploy/k1/profile-scripts/mapping/autonomous_mapping_session.sh",
+      "target": "mapping/scripts/autonomous_mapping_session.sh",
+      "mode": 493,
+      "sha256": "b02314e129db4826e26462598f85732d8163225f3e1a102efb2f30d039278e7d"
+    },
+    {
+      "source": "deploy/k1/profile-scripts/mapping/m10_serial_probe.py",
+      "target": "mapping/scripts/m10_serial_probe.py",
+      "mode": 493,
+      "sha256": "6ae91885b41f236d96589dd5d99d1bb51b4eb5f8b6426dcb15161505b500d771"
+    },
+    {
+      "source": "deploy/k1/profile-scripts/mapping/navigation_stationary_probe.py",
+      "target": "mapping/scripts/navigation_stationary_probe.py",
+      "mode": 493,
+      "sha256": "01d12b545ad9015ca920dc552d54d7460abf868098e71c4df46c7f27cd16f045"
+    },
+    {
+      "source": "deploy/k1/profile-scripts/mapping/rvclaw_visualization.sh",
+      "target": "mapping/scripts/rvclaw_visualization.sh",
+      "mode": 493,
+      "sha256": "0f7d3339437c008c5e6a1bd64f0a3c70357f5e60bd687d18ff8cbe4bb6878d8f"
+    },
+    {
+      "source": "deploy/k1/profile-scripts/mapping/slam_mapping_session.sh",
+      "target": "mapping/scripts/slam_mapping_session.sh",
+      "mode": 493,
+      "sha256": "45a4d6ea46cc7bb845c9c3117f8e245f51f5479c7ee7355f20db3f8dd97fbb9e"
+    }
+  ]
+}

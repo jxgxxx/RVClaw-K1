@@ -1,0 +1,14 @@
+# Emotion detection app entry. Model yaml use src/ schema.
+# image mode:  face_model + emotion_model (static ResNet50, single frame)
+# camera mode: face_model + feature_model (ResNet50 features) + lstm_model (LSTM)
+
+face_model: face_detector.yaml
+emotion_model: emotion.yaml
+feature_model: emotion_features.yaml
+lstm_model: emotion_lstm.yaml
+
+camera_id: 0
+
+# Faces smaller than this (min of bbox width/height, in pixels) are detected
+# but skipped for emotion recognition — small faces give unreliable emotion.
+min_face_size: 64

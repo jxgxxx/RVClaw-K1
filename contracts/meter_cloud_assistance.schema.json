@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "RVClaw optional meter cloud assistance audit",
+  "type": "object",
+  "required": ["enabled", "attempts", "pending_ignored", "budget_s", "final_wait_s", "events", "cloud_trials"],
+  "properties": {
+    "enabled": {"const": true},
+    "attempts": {"type": "integer", "minimum": 0, "maximum": 2},
+    "pending_ignored": {"type": "boolean"},
+    "budget_s": {"type": "number", "exclusiveMinimum": 0, "maximum": 45},
+    "final_wait_s": {"type": "number", "exclusiveMinimum": 0, "maximum": 12},
+    "events": {"type": "array", "items": {"type": "object"}},
+    "cloud_trials": {"type": "array", "maxItems": 2, "items": {"type": "object"}}
+  },
+  "description": "Optional cloud_assistance field on a route point result. Local result/threshold contracts remain unchanged; hybrid consensus identifies independent frames and sources."
+}

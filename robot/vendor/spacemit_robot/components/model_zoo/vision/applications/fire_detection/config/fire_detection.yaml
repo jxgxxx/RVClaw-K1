@@ -1,0 +1,3 @@
+# Fire detection app entry. Model yaml uses src/ schema.
+
+model: yolov8_fire.yaml

@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Node / frontend
+node_modules/
+
+# ROS2 build artifacts
+build/
+install/
+log/
+
+# Coverage / reports
+.coverage
+coverage/
+htmlcov/
+
+# Local artifacts
+artifacts/
+runs/
+tmp/
+*.log
+models/*.pt
+samples/*.yolov8n.json
+
+# Board-local cloud credentials
+runtime/k1/secrets/
+
+# Generated profile workspaces and mutable deployment state
+runtime/**
+!runtime/.gitkeep
+state/
+robot/profiles/*/ros2_ws/
+studio/web/**
+!studio/web/README.md
+studio/web-vue/verification/
+*.sqlite
+*.sqlite3
+*.db
+*.wav
+*.onnx
+*.bin
+*.pt
+*.so
+*.so.*
+*.uvguix.*
+*.uvoptx
+*.axf
+*.hex
+*.o
+*.a
+**/secrets/
+**/credentials/
+
+# This directory contains SDK build source, not generated build artifacts.
+!robot/vendor/spacemit_robot/build/
+!robot/vendor/spacemit_robot/build/**

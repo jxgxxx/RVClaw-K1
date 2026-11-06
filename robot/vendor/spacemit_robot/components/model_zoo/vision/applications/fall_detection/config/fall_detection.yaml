@@ -1,0 +1,14 @@
+# Fall detection app entry (demo + model refs).
+
+pose_model: pose.yaml
+stgcn_model: stgcn.yaml
+test_video: ~/.cache/assets/video/002_fall.mp4
+kp_threshold: 0.3
+stgcn_wait_frames: 10
+stgcn_smooth_window: 5
+camera_id: 1
+
+# Application policy: which STGCN output class counts as a "fall" event.
+# This is a business decision of this app, not a property of the model
+# (the same STGCN could drive a "sit down" detector with a different index).
+fall_down_index: 6

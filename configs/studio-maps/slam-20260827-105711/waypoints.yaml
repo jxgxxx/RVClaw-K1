@@ -1,0 +1,55 @@
+schema_version: 1
+map_id: slam-20260827-105711
+map_yaml: map.yaml
+frame_id: map
+
+# Coordinates are absolute map-frame poses. Distances are metres; yaw_deg is
+# the final chassis heading in the map frame, positive counter-clockwise.
+coordinate_convention:
+  x_positive: map_x
+  y_positive: map_y
+  yaw_positive: counter_clockwise
+  pose_reference: base_footprint
+
+waypoints:
+  A:
+    name: A
+    x_m: 2.0
+    y_m: 0.0
+    yaw_deg: 0.0
+    yaw_rad: 0.0
+    map_validation: free_cell_with_0.50m_free_radius
+    field_validation: pending
+  B:
+    name: B
+    x_m: 3.0
+    y_m: -3.0
+    yaw_deg: -90.0
+    yaw_rad: -1.5707963267948966
+    map_validation: free_cell_with_0.50m_free_radius
+    field_validation: pending
+  C:
+    name: C
+    x_m: 3.0
+    y_m: 3.0
+    yaw_deg: 90.0
+    yaw_rad: 1.5707963267948966
+    map_validation: free_cell_with_0.50m_free_radius
+    field_validation: pending
+  ORIGIN:
+    name: ORIGIN
+    x_m: 0.0
+    y_m: 0.0
+    yaw_deg: 0.0
+    yaw_rad: 0.0
+    map_validation: free_goal_cell_with_nearby_obstacle
+    field_validation: pending
+
+test_policy:
+  first_run_order: [A, B, C, ORIGIN]
+  initial_goal_tolerance_m: 0.05
+  initial_yaw_tolerance_rad: 0.15
+  require_amcl_converged: true
+  require_fresh_scan: true
+  require_operator_at_main_power: true
+  automatic_reverse: false

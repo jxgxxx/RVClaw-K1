@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RVClaw optional depth observation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "status", "reason", "boot_id", "monotonic_ns", "frame_id", "motion_authority", "calibration_status", "regions"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "status": {"enum": ["OK", "UNAVAILABLE", "INVALID"]},
+    "reason": {"type": "string"},
+    "boot_id": {"type": "string", "minLength": 1},
+    "monotonic_ns": {"type": "integer", "minimum": 0},
+    "frame_id": {"const": "astra_depth_optical_frame"},
+    "motion_authority": {"const": false},
+    "calibration_status": {"const": "unverified"},
+    "frame_index": {"type": "integer"},
+    "device_timestamp_us": {"type": "integer", "minimum": 0},
+    "width": {"type": "integer", "minimum": 1, "maximum": 640},
+    "height": {"type": "integer", "minimum": 1, "maximum": 480},
+    "sensor_fps": {"type": "integer", "minimum": 1, "maximum": 30},
+    "regions": {
+      "type": "array", "maxItems": 3,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["name", "valid_fraction", "median_z_m", "p10_z_m"],
+        "properties": {
+          "name": {"enum": ["left", "center", "right"]},
+          "valid_fraction": {"type": "number", "minimum": 0, "maximum": 1},
+          "median_z_m": {"type": ["number", "null"], "minimum": 0.6, "maximum": 4.0},
+          "p10_z_m": {"type": ["number", "null"], "minimum": 0.6, "maximum": 4.0}
+        }
+      }
+    }
+  }
+}

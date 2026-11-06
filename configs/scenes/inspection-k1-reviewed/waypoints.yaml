@@ -1,0 +1,73 @@
+schema_version: 1
+map_id: inspection-eb72268b158a
+map_yaml: map.yaml
+frame_id: map
+
+# O is the mapping start; the current ORIGIN return point can differ from O.
+# +X is the vehicle's initial forward direction;
+# +Y is to its left, and positive yaw is counter-clockwise.
+# These are vehicle-centre observation poses, not locations on obstacles.
+coordinate_convention:
+  x_positive: initial_forward
+  y_positive: initial_left
+  yaw_positive: counter_clockwise
+  pose_reference: base_footprint
+
+waypoints:
+  A:
+    name: A
+    # Camera-centred pose surveyed from independent stationary full-view scans.
+    x_m: 2.25
+    y_m: 0.88
+    yaw_deg: 91.5
+    yaw_rad: 1.5969762655748114
+    map_validation: static_grid_candidate
+    field_validation: pending
+  B:
+    name: B
+    # Camera-centred pose confirmed by independent stationary full-view scans.
+    # Preserve the existing forward STOP envelope and stopped-position tolerance.
+    x_m: 6.53
+    y_m: 0.49
+    yaw_deg: -89.25
+    yaw_rad: -1.557706357404939
+    map_validation: static_grid_candidate
+    field_validation: pending
+  C:
+    name: C
+    # Centred camera pose confirmed by three stationary full-view scans.
+    x_m: 9.35
+    y_m: 1.05
+    yaw_deg: 92.5
+    yaw_rad: 1.6144295580947547
+    map_validation: static_grid_candidate
+    field_validation: pending
+  ORIGIN:
+    name: ORIGIN
+    # Operator-selected return point, 0.60 m forward along map +X.
+    # This return waypoint does not redefine the map coordinate frame.
+    x_m: 0.45
+    y_m: 0.67
+    yaw_deg: 0.0
+    yaw_rad: 0.0
+    map_validation: static_grid_candidate
+    field_validation: pending
+
+# Physical meter face coordinates are distinct from vehicle-centre waypoints.
+# Keep the surveyed observation heading fixed during the inspection.
+meter_targets:
+  B:
+    meter_id: PRINT-B
+    x_m: 6.55
+    y_m: -0.10
+    position_uncertainty_m: 0.05
+    position_reference: observed_support_face
+
+test_policy:
+  first_run_order: [A, B, C, ORIGIN]
+  initial_goal_tolerance_m: 0.05
+  initial_yaw_tolerance_rad: 0.15
+  require_amcl_converged: true
+  require_fresh_scan: true
+  require_operator_at_main_power: true
+  automatic_reverse: false

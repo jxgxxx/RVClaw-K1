@@ -1,0 +1,22 @@
+line-length = 120
+target-version = "py38"
+
+[lint]
+# Core set: pycodestyle errors/warnings + pyflakes.
+select = ["E", "W", "F"]
+
+# Black-compatible.
+ignore = ["E203"]
+
+exclude = [
+  "output",
+  "target",
+  "components/thirdparty",
+  "build",
+  "install",
+  "log",
+  ".venv",
+  "venv",
+  "__pycache__",
+]
+

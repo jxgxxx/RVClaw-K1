@@ -1,0 +1,23 @@
+[Unit]
+Description=RVClaw RGB target, landmark and motion observations
+After=rvclaw-camera-api.service
+RequiresMountsFor=/data/RVClaw
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /data/RVClaw/deploy/k1/run_rgb_assist.sh
+WorkingDirectory=/data/RVClaw
+Nice=12
+CPUAffinity=4-6
+CPUWeight=5
+CPUQuota=30%
+MemoryMax=256M
+TasksMax=32
+NoNewPrivileges=yes
+UMask=0077
+Restart=on-failure
+RestartSec=10
+TimeoutStopSec=5
+
+[Install]
+WantedBy=default.target

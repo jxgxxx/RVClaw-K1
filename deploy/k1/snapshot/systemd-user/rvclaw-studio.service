@@ -1,0 +1,24 @@
+[Unit]
+Description=RVClaw Studio website (K1, reuses local vision)
+After=network-online.target rvclaw-camera-api.service
+Wants=network-online.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+WorkingDirectory=@ROBOT_ROOT@
+ExecStart=/bin/bash @ROBOT_ROOT@/deploy/k1/run_studio.sh
+Restart=on-failure
+RestartSec=5
+Nice=19
+CPUAffinity=4-6
+CPUWeight=10
+# At most 0.75 of one CPU across the eight-core board, including registration.
+CPUQuota=75%
+MemoryHigh=320M
+MemoryMax=384M
+TasksMax=64
+TimeoutStopSec=15
+
+[Install]
+WantedBy=default.target

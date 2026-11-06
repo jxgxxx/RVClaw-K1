@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Stopped return recovery evidence",
+  "description": "Optional trace evidence. Does not authorize motion. Recovery also requires global stationary verification and normal navigation safety gates.",
+  "type": "object",
+  "properties": {
+    "origin_return_pose_change_corroborated": {"type": "boolean"},
+    "metrics": {
+      "type": "object",
+      "properties": {
+        "motion_map_last_evidence": {
+          "type": "object",
+          "properties": {
+            "ray_checked_alternative": {
+              "type": "object",
+              "required": ["x", "y", "yaw", "mean_likelihood", "known_endpoint_ratio", "ray_consistency"],
+              "properties": {
+                "x": {"type": "number"},
+                "y": {"type": "number"},
+                "yaw": {"type": "number"},
+                "mean_likelihood": {"type": "number", "minimum": 0, "maximum": 1},
+                "known_endpoint_ratio": {"type": "number", "minimum": 0, "maximum": 1},
+                "ray_consistency": {"type": "object", "required": ["status"], "properties": {"status": {"enum": ["PASS", "FAIL"]}}}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

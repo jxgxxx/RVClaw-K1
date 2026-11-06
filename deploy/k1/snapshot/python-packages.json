@@ -1,0 +1,646 @@
+[
+  {
+    "name": "argcomplete",
+    "version": "3.1.4"
+  },
+  {
+    "name": "autocommand",
+    "version": "2.2.2"
+  },
+  {
+    "name": "beautifulsoup4",
+    "version": "4.12.3"
+  },
+  {
+    "name": "blinker",
+    "version": "1.7.0"
+  },
+  {
+    "name": "bloom",
+    "version": "0.12.0"
+  },
+  {
+    "name": "breezy",
+    "version": "3.3.5"
+  },
+  {
+    "name": "Brlapi",
+    "version": "0.8.5"
+  },
+  {
+    "name": "Brotli",
+    "version": "1.1.0"
+  },
+  {
+    "name": "build",
+    "version": "1.0.3"
+  },
+  {
+    "name": "catkin-pkg",
+    "version": "1.0.0"
+  },
+  {
+    "name": "catkin-pkg-modules",
+    "version": "1.0.0"
+  },
+  {
+    "name": "certifi",
+    "version": "2023.11.17"
+  },
+  {
+    "name": "chardet",
+    "version": "5.2.0"
+  },
+  {
+    "name": "click",
+    "version": "8.1.6"
+  },
+  {
+    "name": "colcon-argcomplete",
+    "version": "0.3.3"
+  },
+  {
+    "name": "colcon-bash",
+    "version": "0.5.0"
+  },
+  {
+    "name": "colcon-cd",
+    "version": "0.2.1"
+  },
+  {
+    "name": "colcon-cmake",
+    "version": "0.2.28"
+  },
+  {
+    "name": "colcon-common-extensions",
+    "version": "0.3.0"
+  },
+  {
+    "name": "colcon-core",
+    "version": "0.18.1"
+  },
+  {
+    "name": "colcon-defaults",
+    "version": "0.2.8"
+  },
+  {
+    "name": "colcon-devtools",
+    "version": "0.3.0"
+  },
+  {
+    "name": "colcon-installed-package-information",
+    "version": "0.2.1"
+  },
+  {
+    "name": "colcon-library-path",
+    "version": "0.2.1"
+  },
+  {
+    "name": "colcon-metadata",
+    "version": "0.2.5"
+  },
+  {
+    "name": "colcon-mixin",
+    "version": "0.2.3"
+  },
+  {
+    "name": "colcon-notification",
+    "version": "0.3.0"
+  },
+  {
+    "name": "colcon-output",
+    "version": "0.2.13"
+  },
+  {
+    "name": "colcon-override-check",
+    "version": "0.0.1"
+  },
+  {
+    "name": "colcon-package-information",
+    "version": "0.4.0"
+  },
+  {
+    "name": "colcon-package-selection",
+    "version": "0.2.10"
+  },
+  {
+    "name": "colcon-parallel-executor",
+    "version": "0.3.0"
+  },
+  {
+    "name": "colcon-pkg-config",
+    "version": "0.1.0"
+  },
+  {
+    "name": "colcon-powershell",
+    "version": "0.4.0"
+  },
+  {
+    "name": "colcon-python-setup-py",
+    "version": "0.2.9"
+  },
+  {
+    "name": "colcon-recursive-crawl",
+    "version": "0.2.3"
+  },
+  {
+    "name": "colcon-ros",
+    "version": "0.5.0"
+  },
+  {
+    "name": "colcon-test-result",
+    "version": "0.3.8"
+  },
+  {
+    "name": "colcon-zsh",
+    "version": "0.5.0"
+  },
+  {
+    "name": "colorama",
+    "version": "0.4.6"
+  },
+  {
+    "name": "coloredlogs",
+    "version": "15.0.1"
+  },
+  {
+    "name": "configobj",
+    "version": "5.0.8"
+  },
+  {
+    "name": "coverage",
+    "version": "7.4.4"
+  },
+  {
+    "name": "cryptography",
+    "version": "41.0.7"
+  },
+  {
+    "name": "cssselect",
+    "version": "1.2.0"
+  },
+  {
+    "name": "cupshelpers",
+    "version": "1.0"
+  },
+  {
+    "name": "dbus-python",
+    "version": "1.3.2"
+  },
+  {
+    "name": "decorator",
+    "version": "5.1.1"
+  },
+  {
+    "name": "Deprecated",
+    "version": "1.2.14"
+  },
+  {
+    "name": "distlib",
+    "version": "0.3.8"
+  },
+  {
+    "name": "distro",
+    "version": "1.9.0"
+  },
+  {
+    "name": "distro-info",
+    "version": "1.7+build1"
+  },
+  {
+    "name": "docutils",
+    "version": "0.20.1"
+  },
+  {
+    "name": "dulwich",
+    "version": "0.21.6"
+  },
+  {
+    "name": "empy",
+    "version": "3.3.4"
+  },
+  {
+    "name": "fastbencode",
+    "version": "0.2"
+  },
+  {
+    "name": "fastimport",
+    "version": "0.9.14"
+  },
+  {
+    "name": "flake8",
+    "version": "7.0.0"
+  },
+  {
+    "name": "flatbuffers",
+    "version": "25.12.19"
+  },
+  {
+    "name": "galternatives",
+    "version": "1.0.9"
+  },
+  {
+    "name": "gpg",
+    "version": "1.18.0"
+  },
+  {
+    "name": "html5lib",
+    "version": "1.1"
+  },
+  {
+    "name": "httplib2",
+    "version": "0.20.4"
+  },
+  {
+    "name": "humanfriendly",
+    "version": "10.0"
+  },
+  {
+    "name": "idna",
+    "version": "3.6"
+  },
+  {
+    "name": "importlib-metadata",
+    "version": "4.12.0"
+  },
+  {
+    "name": "inflect",
+    "version": "7.0.0"
+  },
+  {
+    "name": "iniconfig",
+    "version": "1.1.1"
+  },
+  {
+    "name": "jaraco.context",
+    "version": "4.3.0"
+  },
+  {
+    "name": "jaraco.functools",
+    "version": "4.0.0"
+  },
+  {
+    "name": "jaraco.text",
+    "version": "3.11.1"
+  },
+  {
+    "name": "language-selector",
+    "version": "0.1"
+  },
+  {
+    "name": "lark",
+    "version": "1.1.9"
+  },
+  {
+    "name": "launchpadlib",
+    "version": "1.11.0"
+  },
+  {
+    "name": "lazr.restfulclient",
+    "version": "0.14.6"
+  },
+  {
+    "name": "lazr.uri",
+    "version": "1.0.6"
+  },
+  {
+    "name": "libevdev",
+    "version": "0.5"
+  },
+  {
+    "name": "louis",
+    "version": "3.29.0"
+  },
+  {
+    "name": "lxml",
+    "version": "5.2.1"
+  },
+  {
+    "name": "markdown-it-py",
+    "version": "3.0.0"
+  },
+  {
+    "name": "mccabe",
+    "version": "0.7.0"
+  },
+  {
+    "name": "mdurl",
+    "version": "0.1.2"
+  },
+  {
+    "name": "mercurial",
+    "version": "6.7.2"
+  },
+  {
+    "name": "merge3",
+    "version": "0.0.8"
+  },
+  {
+    "name": "more-itertools",
+    "version": "10.2.0"
+  },
+  {
+    "name": "mpi4py",
+    "version": "3.1.5"
+  },
+  {
+    "name": "mpmath",
+    "version": "1.3.0"
+  },
+  {
+    "name": "mutagen",
+    "version": "1.46.0"
+  },
+  {
+    "name": "netifaces",
+    "version": "0.11.0"
+  },
+  {
+    "name": "notify2",
+    "version": "0.3"
+  },
+  {
+    "name": "numpy",
+    "version": "1.26.4"
+  },
+  {
+    "name": "oauthlib",
+    "version": "3.2.2"
+  },
+  {
+    "name": "olefile",
+    "version": "0.46"
+  },
+  {
+    "name": "onnxruntime",
+    "version": "1.24.0+spacemit.a3"
+  },
+  {
+    "name": "packaging",
+    "version": "24.0"
+  },
+  {
+    "name": "patiencediff",
+    "version": "0.2.13"
+  },
+  {
+    "name": "pexpect",
+    "version": "4.9.0"
+  },
+  {
+    "name": "pillow",
+    "version": "10.2.0"
+  },
+  {
+    "name": "pip",
+    "version": "24.2"
+  },
+  {
+    "name": "pluggy",
+    "version": "1.4.0"
+  },
+  {
+    "name": "protobuf",
+    "version": "7.35.0"
+  },
+  {
+    "name": "psutil",
+    "version": "5.9.8"
+  },
+  {
+    "name": "ptyprocess",
+    "version": "0.7.0"
+  },
+  {
+    "name": "pycairo",
+    "version": "1.25.1"
+  },
+  {
+    "name": "pycodestyle",
+    "version": "2.11.1"
+  },
+  {
+    "name": "pycryptodomex",
+    "version": "3.20.0"
+  },
+  {
+    "name": "pycups",
+    "version": "2.0.1"
+  },
+  {
+    "name": "pydantic",
+    "version": "1.10.14"
+  },
+  {
+    "name": "pydocstyle",
+    "version": "6.3.0"
+  },
+  {
+    "name": "pyflakes",
+    "version": "3.2.0"
+  },
+  {
+    "name": "PyGithub",
+    "version": "2.2.0"
+  },
+  {
+    "name": "Pygments",
+    "version": "2.17.2"
+  },
+  {
+    "name": "PyGObject",
+    "version": "3.48.2"
+  },
+  {
+    "name": "PyJWT",
+    "version": "2.7.0"
+  },
+  {
+    "name": "PyNaCl",
+    "version": "1.5.0"
+  },
+  {
+    "name": "pyparsing",
+    "version": "3.1.1"
+  },
+  {
+    "name": "pyproject_hooks",
+    "version": "1.0.0"
+  },
+  {
+    "name": "pyserial",
+    "version": "3.5"
+  },
+  {
+    "name": "pytest",
+    "version": "7.4.4"
+  },
+  {
+    "name": "pytest-cov",
+    "version": "4.1.0"
+  },
+  {
+    "name": "python-apt",
+    "version": "2.7.7+ubuntu1.bb2"
+  },
+  {
+    "name": "python-dateutil",
+    "version": "2.8.2"
+  },
+  {
+    "name": "pyudev",
+    "version": "0.24.0"
+  },
+  {
+    "name": "pyxdg",
+    "version": "0.28"
+  },
+  {
+    "name": "PyYAML",
+    "version": "6.0.1"
+  },
+  {
+    "name": "requests",
+    "version": "2.31.0"
+  },
+  {
+    "name": "rich",
+    "version": "13.7.1"
+  },
+  {
+    "name": "roman",
+    "version": "3.3"
+  },
+  {
+    "name": "rosdep",
+    "version": "0.25.1"
+  },
+  {
+    "name": "rosdep-modules",
+    "version": "0.25.1"
+  },
+  {
+    "name": "rosdistro",
+    "version": "1.0.1"
+  },
+  {
+    "name": "rosdistro-modules",
+    "version": "1.0.1"
+  },
+  {
+    "name": "rospkg-modules",
+    "version": "1.5.1"
+  },
+  {
+    "name": "SciPy",
+    "version": "1.11.4"
+  },
+  {
+    "name": "setuptools",
+    "version": "75.8.0"
+  },
+  {
+    "name": "six",
+    "version": "1.16.0"
+  },
+  {
+    "name": "snowballstemmer",
+    "version": "2.2.0"
+  },
+  {
+    "name": "soupsieve",
+    "version": "2.5"
+  },
+  {
+    "name": "spacemit-ort",
+    "version": "2.0.3"
+  },
+  {
+    "name": "ssh-import-id",
+    "version": "5.11"
+  },
+  {
+    "name": "sympy",
+    "version": "1.14.0"
+  },
+  {
+    "name": "systemd-python",
+    "version": "235"
+  },
+  {
+    "name": "toml",
+    "version": "0.10.2"
+  },
+  {
+    "name": "transforms3d",
+    "version": "0.4.1"
+  },
+  {
+    "name": "typeguard",
+    "version": "4.1.5"
+  },
+  {
+    "name": "typing_extensions",
+    "version": "4.10.0"
+  },
+  {
+    "name": "tzlocal",
+    "version": "5.2"
+  },
+  {
+    "name": "ubuntu-drivers-common",
+    "version": "0.0.0"
+  },
+  {
+    "name": "unattended-upgrades",
+    "version": "0.1"
+  },
+  {
+    "name": "urllib3",
+    "version": "2.0.7"
+  },
+  {
+    "name": "vcstool",
+    "version": "0.3.0"
+  },
+  {
+    "name": "vcstools",
+    "version": "0.1.42"
+  },
+  {
+    "name": "wadllib",
+    "version": "1.3.6"
+  },
+  {
+    "name": "webencodings",
+    "version": "0.5.1"
+  },
+  {
+    "name": "websockets",
+    "version": "10.4"
+  },
+  {
+    "name": "wheel",
+    "version": "0.42.0"
+  },
+  {
+    "name": "wrapt",
+    "version": "1.15.0"
+  },
+  {
+    "name": "xdg",
+    "version": "5"
+  },
+  {
+    "name": "xkit",
+    "version": "0.0.0"
+  },
+  {
+    "name": "yt-dlp",
+    "version": "2024.4.9"
+  },
+  {
+    "name": "zipp",
+    "version": "1.0.0"
+  }
+]

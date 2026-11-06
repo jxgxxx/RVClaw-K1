@@ -1,0 +1,20 @@
+{
+  "maps": [
+    {
+      "id": "inspection-eb72268b158a",
+      "name": "走廊巡检",
+      "directory": "/data/RVClaw/configs/scenes/inspection-k1-reviewed",
+      "localization_cache": "/data/RVClaw/runtime/k1/scenes/inspection-k1-reviewed/localization-pose.json"
+    },
+    {
+      "id": "slam-20260827-105711",
+      "name": "办公室巡检",
+      "directory": "/data/RVClaw/configs/studio-maps/slam-20260827-105711"
+    },
+    {
+      "id": "voice-slam-20260923-152736-b400c9b9-aligned-20261004",
+      "name": "巡检地图 · 09-23",
+      "directory": "/data/RVClaw/configs/studio-maps/voice-slam-20260923-152736-b400c9b9-aligned-20261004"
+    }
+  ]
+}

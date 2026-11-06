@@ -1,0 +1,29 @@
+[Unit]
+Description=RVClaw K1 inspection progress (passive file observer)
+After=network-online.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Environment=PYTHONUNBUFFERED=1
+Environment=RVCLAW_TASK_DB=@ROBOT_ROOT@/runtime/voice_tasks.sqlite3
+Environment=RVCLAW_ARRIVAL_EVENT_DIR=@ROBOT_ROOT@/runtime/waypoint-arrivals
+Environment=RVCLAW_INSPECTION_PROGRESS_OUT=@ROBOT_ROOT@/runtime/inspection-progress/inspection-progress.json
+Environment=RVCLAW_INSPECTION_HOST_LABEL=Firefly-K1
+Environment=RVCLAW_INSPECTION_CAPTURE=0
+Environment=RVCLAW_INSPECTION_EVIDENCE_ROOT=/data/inspection_photos
+Environment=RVCLAW_INSPECTION_HISTORY_LIMIT=80
+Environment=RVCLAW_INSPECTION_SPOOL_INTERVAL=0.5
+Environment=RVCLAW_INSPECTION_DB_INTERVAL=2
+ExecStart=/usr/bin/python3 @ROBOT_ROOT@/services/inspection_progress/inspection_progress_watcher.py
+Restart=on-failure
+RestartSec=5
+Nice=15
+CPUAffinity=4-6
+CPUWeight=5
+CPUQuota=10%
+MemoryMax=128M
+TimeoutStopSec=15
+
+[Install]
+WantedBy=default.target
