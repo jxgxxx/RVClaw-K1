@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "purpose": "documentation_only",
+  "auto_apply": false,
+  "device": "WHEELTEC M260C / XFM-DP-V0.0.18",
+  "reference_path_on_module": "/data/build/user_cfg.ini",
+  "provenance": "Previously saved K1 module configuration export; not read live in the 2026-11-06 support audit.",
+  "previously_observed_parameters": {
+    "common": {"debug": "0"},
+    "system": {"mic_vol": "30", "output_vol": "4", "ref_vol": "30"},
+    "vtn": {"beam": "-3", "log": "0", "path": "vtn/vtn.ini", "version": "mic6_circle"}
+  },
+  "deployment_notes": [
+    "Continuous raw audio dumping was disabled with common.debug=0 in the prior module repair.",
+    "Gains and beam values are historical references for this hardware, not settings to overwrite on every module.",
+    "Host ALSA speaker volume and prompt loudness are separate from these module settings.",
+    "Wake keyword and threshold are managed by the existing host serial protocol when configured.",
+    "Manufacturer firmware, wake resource and licensed engine are not included in this reference."
+  ]
+}

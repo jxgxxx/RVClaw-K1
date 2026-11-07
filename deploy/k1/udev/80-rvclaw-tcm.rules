@@ -1,0 +1,2 @@
+# RVClaw camera inference: grant accelerator access to the existing video group.
+KERNEL=="tcm", GROUP="video", MODE="0660"

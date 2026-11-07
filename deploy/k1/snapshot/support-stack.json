@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-11-06",
+  "timezone": "Asia/Shanghai",
+  "source_commit": "9de54caa89dfe31b8b248460a983882bdd84336e",
+  "system": {
+    "distribution": "Bianbu",
+    "version": "2.3.5",
+    "architecture": "riscv64",
+    "kernel_release": "6.6.63",
+    "kernel_build": "#2.2.9.2 SMP PREEMPT Tue Jan 27 21:48:13 UTC 2026"
+  },
+  "kernel_drivers": [
+    {"name": "cdc_acm", "config": "CONFIG_USB_ACM=m", "observed_role": "Three attached QinHeng serial interfaces", "usb_id": "1a86:55d4", "delivery": "Bianbu kernel package; not a project-maintained driver"},
+    {"name": "uvcvideo", "config": "CONFIG_USB_VIDEO_CLASS=y", "observed_role": "Astra Pro RGB", "usb_id": "2bc5:0501", "delivery": "Built into the Bianbu kernel"},
+    {"name": "snd_usb_audio", "config": "CONFIG_SND_USB_AUDIO=y", "observed_role": "USB microphone/audio playback interfaces", "delivery": "Built into the Bianbu kernel"},
+    {"name": "spacemit_tcm", "config": "CONFIG_SPACEMIT_TCM=y", "observed_role": "/dev/tcm memory interface used by vendor processing stack", "delivery": "Built into the Bianbu kernel"},
+    {"name": "8852bs", "observed_role": "K1 board Wi-Fi", "module_path": "/lib/modules/6.6.63/kernel/drivers/net/wireless/realtek/rtl8852bs/8852bs.ko", "delivery": "Board kernel/image; no project-maintained source patch identified"}
+  ],
+  "packages": [
+    {"name": "linux-image-6.6.63", "version": "6.6.63-2.2.9.2", "architecture": "riscv64", "origin": "http://archive.spacemit.com/bianbu", "suite": "bianbu-v2.3-updates/main", "filename": "pool/main/l/linux-riscv-spacemit/linux-image-6.6.63_6.6.63-2.2.9.2_riscv64.deb", "sha256": "15d8d5b472427db210cdfce23f76f8da868a6c5fe5bd8b90c92b199440d3ea91"},
+    {"name": "spacemit-tcm", "version": "3.0.0-bpo1+2", "architecture": "riscv64", "origin": "http://archive.spacemit.com/bianbu", "suite": "bianbu-v2.3-updates/main", "filename": "pool/main/s/spacemit-tcm/spacemit-tcm_3.0.0-bpo1+2_riscv64.deb", "sha256": "68ed23112cbc2b3a14d61c9eeec9cd1215da66a8bd81c5f0db07c6522ff1133d"},
+    {"name": "spacemit-modules-usrload", "version": "0.1.3", "architecture": "riscv64", "origin": "http://archive.spacemit.com/bianbu", "suite": "noble-porting/snapshots/v2.3/main", "filename": "pool/main/s/spacemit-modules-usrload/spacemit-modules-usrload_0.1.3_riscv64.deb", "sha256": "da8f9b7772904936de9184780f8fc2f9d15d2d6e4ec5856b31880917ddf58af2"},
+    {"name": "spacemit-onnxruntime", "version": "2.0.3-bpo1", "architecture": "riscv64", "origin": "http://archive.spacemit.com/bianbu", "suite": "bianbu-v2.3-updates/main", "filename": "pool/main/s/spacemit-onnxruntime/spacemit-onnxruntime_2.0.3-bpo1_riscv64.deb", "sha256": "060ca33f30f825095a5a8ad37747a5af22878d2cb8c3cd9d47c54f16f370fb1c"},
+    {"name": "python3-spacemit-ort", "version": "2.0.3-bpo1", "architecture": "riscv64", "origin": "http://archive.spacemit.com/bianbu", "suite": "bianbu-v2.3-updates/main", "filename": "pool/main/s/spacemit-onnxruntime/python3-spacemit-ort_2.0.3-bpo1_riscv64.deb", "sha256": "941dbd187b338bbbde6877c581b014deb196d2e9f0fbcf0b8f45eee278e729dd"},
+    {"name": "opencv-spacemit", "version": "4.14.0-1bb3", "architecture": "riscv64", "origin": "http://archive.spacemit.com/bianbu", "suite": "bianbu-v2.3-updates/main", "filename": "pool/main/o/opencv-spacemit/opencv-spacemit_4.14.0-1bb3_riscv64.deb", "sha256": "c74de8b27fdac8193a1b8777826fac7a20727fa04e5e2c69c9d41f8607d12f4e"}
+  ],
+  "optional_tools": [
+    {"name": "adb", "installed": false, "available_version": "1:34.0.4-1build3", "architecture": "riscv64", "role": "Optional manufacturer module recovery only", "origin": "http://archive.spacemit.com/bianbu", "suite": "noble/snapshots/v2.3/universe", "repository_metadata_observed_only": true},
+    {"name": "libopenni2-0", "installed_version": "2.2.0.33+dfsg-18", "architecture": "riscv64", "role": "OpenNI2 framework; Astra Pro depth stream remains unverified"}
+  ],
+  "project_sources": [
+    {"path": "robot/firmware/c30d-v8.1", "role": "STM32 chassis firmware"},
+    {"path": "robot/ros2_ws/src/rvclaw_stm32_base", "role": "Host serial transport, odometry and control"},
+    {"path": "robot/ros2_ws/src/lslidar_driver", "role": "Lidar ROS2 driver 5.1.1"},
+    {"path": "robot/ros2_ws/src/lslidar_msgs", "role": "Lidar ROS2 messages"},
+    {"path": "services/rvclaw_voice", "role": "Host voice protocol and recognition integration"},
+    {"path": "services/rvclaw_api/native", "role": "RGB and native vision integration"},
+    {"path": "robot/ros2_ws/src/rvclaw_perception", "role": "RGB assistance and optional depth interface"},
+    {"path": "robot/vendor/spacemit_robot", "role": "Buildable SDK modules"},
+    {"path": "robot/vendor/native", "role": "NCNN, PortAudio and build dependencies"},
+    {"path": "deploy/k1/native/amcl", "role": "Project AMCL library source"},
+    {"path": "deploy/k1/compatibility/scan_map_kernel.c", "role": "Project scan matching native kernel"}
+  ],
+  "udev_rules": [
+    {"path": "deploy/k1/udev/60-rvclaw-astra-depth.rules", "status": "already_in_source", "sha256": "372aed2c8e6bb40380711e5898f3159f4c4f08024ab9902d3554d448f41d1813"},
+    {"path": "deploy/k1/udev/80-rvclaw-tcm.rules", "status": "proposed_addition", "sha256": "6d8df0a76c5c7a4ebdf21e2a4374ee33945c291e764ea3cff73eab60a2f6e42b"},
+    {"path": "deploy/k1/udev/99-rvclaw-m10.rules", "status": "already_in_source", "sha256": "cffa0818b8e1d38d3779dc7177776b5cee37be77e66dc7cfdba77d43e081db1d"},
+    {"path": "deploy/k1/udev/99-rvclaw-m260c.rules", "status": "already_in_source", "sha256": "9766433c7cfef9c1e57cda365ce29f85ae23d130a56254b5f0df6ffa02749faf"},
+    {"path": "deploy/k1/udev/wheeltec_mic.rules", "status": "already_in_source", "sha256": "60e755e9a00604f87865221f1524062d37770e0b4f0d1561936af188ca7f02b4"}
+  ],
+  "boundaries": [
+    "Package SHA256 values are from the current board APT metadata, not a fresh .deb download verification.",
+    "System and manufacturer libraries are external dependencies; their complete source is not supplied by the RVClaw SDK snapshot.",
+    "No new project-maintained Linux kernel driver patch was identified in this audit.",
+    "No active depth stream was tested; installed OpenNI2 drivers do not include liborbbec.",
+    "Microphone module internal firmware and wake engine are manufacturer-provided and not included.",
+    "No device, service, permissions or motion state was changed during the audit."
+  ]
+}
